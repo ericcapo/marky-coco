@@ -7,16 +7,10 @@ This software is a ready-to-use pipeline to detect and identify hgcAB genes from
 ```
 git clone https://github.com/ericcapo/marky-coco.git
 cd marky
+chmod +x workflow/genesearch.sh
 source conda env create -f environment.yml
 ```
-
-To install & activate conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
-
-## ACTIVATE THE CONDA ENVIRONMENT
-
-```
-conda activate environment.yml
-```
+To install conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 ## USAGE
 - Copy your metagenomes (sample_1.fastq and sample_2.fastq) in the folder marky. 
@@ -27,9 +21,10 @@ bash marky.sh sample
 ```
 
 If it doesn´t work:
+- Do "chmod +x marky.sh" and re-try.
 - Only paired-end data are supported right now.
 - Input files should look like that sample_1.fastq and sample_2.fastq. 
-- Do "chmod +x marky.sh" and re-try. In the following line below,
+
 
 ## WORKFLOW
 The raw paired-end fastq files are processed with a suite of sofware. 
