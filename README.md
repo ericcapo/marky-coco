@@ -56,4 +56,11 @@ This software will produce a folder {sample}_outputs including:
 * <b>True hgcB genes</b> include one of the amino acids motifs: CMECGA and CIEGCA
 * To <b>find hgcB genes side-by-side with hgcA genes</b> in the same contig (so co-located in a microbial genome), look the 3nd number in their gene_id (= contigs id). Note that the 3rd number of the gene_id corresponds to the number of the genes on  contigs. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
 * To <b>assign NCBI txid to the corresponding taxonomy</b>, use the file "db_txid_2202220" located in the subfolder marky_db. A R function "merge(db, a, by="txid", all.x=F, all.y=T)" can be used to automatically generated a new column with the corresponding taxonomy in an output file. Otherwise, a manual assignment can be done if you have only few targeted genes.
+```
+R
+db <- read.table("db/db_txid_220220.txt",h=T)
+a <- read.table("{sample}_outputs/{sample}_hgcA_final.txt", h=T)
+b <- merge(db, a, by="txid", all.x=F, all.y=T)
+write.table(b, file="{sample}_outputs/{sample}_hgcA_final2.txt", sep="\t", row.names=F)
+```
 * To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes.
