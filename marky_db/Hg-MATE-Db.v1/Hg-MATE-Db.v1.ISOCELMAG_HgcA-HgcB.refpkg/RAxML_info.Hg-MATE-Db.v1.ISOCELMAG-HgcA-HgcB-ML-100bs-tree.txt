@@ -1,0 +1,946 @@
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0064_delta_proteobacterium_PSCGC_5451_Deltaproteobacteria and MATE_ISO_0132_delta_proteobacterium_PSCGC_5419_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0018_Dehalococcoidia_bacterium_SCGC_AG-205-B13_Chloroflexi and MATE_CEL_0019_Dehalococcoidia_bacterium_SCGC_AG-205-I02_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0018_Dehalococcoidia_bacterium_SCGC_AG-205-B13_Chloroflexi and MATE_CEL_0021_Dehalococcoidia_bacterium_SCGC_AG-205-K13_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0018_Dehalococcoidia_bacterium_SCGC_AG-205-B13_Chloroflexi and MATE_CEL_0022_Dehalococcoidia_bacterium_SCGC_AG-205-M10_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0005_OP8_bacterium_SCGC_AAA252-F08_Aminicenantes and MATE_CEL_0010_OP8_bacterium_SCGC_AAA252-P13_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0005_OP8_bacterium_SCGC_AAA252-F08_Aminicenantes and MATE_CEL_0012_OP8_bacterium_SCGC_AAA252-K07_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0002_OP8_bacterium_SCGC_AAA252-O19_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0003_OP8_bacterium_SCGC_AAA255-O15_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0004_OP8_bacterium_SCGC_AAA252-A02_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0006_OP8_bacterium_SCGC_AAA252-P19_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0007_OP8_bacterium_SCGC_AAA252-G06_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0008_OP8_bacterium_SCGC_AAA252-J21_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0009_OP8_bacterium_SCGC_AAA252-G05_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0011_OP8_bacterium_SCGC_AAA252-J09_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0001_OP8_bacterium_SCGC_AAA252-O09_Aminicenantes and MATE_CEL_0013_Aminicenans_sakinawicola_JGI_OTU-1_OP8COM1_Aminicenantes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_CEL_0014_OP9_bacterium_SCGC_AAA252-M02_Atribacteria and MATE_CEL_0017_OP9_bacterium_SCGC_AB-164-P05_Atribacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0478_Methanomassiliicoccus_sp._UBA382_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0481_Methanomassiliicoccus_sp._UBA393_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0490_Methanomassiliicoccus_sp._UBA321_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0494_Methanomassiliicoccus_sp._UBA335_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0495_Methanomassiliicoccus_sp._UBA315_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0497_Methanomassiliicoccus_sp._UBA345_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0507_Methanomassiliicoccus_sp._UBA364_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0508_Methanomassiliicoccus_sp._UBA360_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0476_Methanomassiliicoccus_sp._UBA292_Euryarchaeota and MATE_MAG_0498_Methanomassiliicoccus_sp._UBA429_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0479_Methanolinea_sp._UBA145_Euryarchaeota and MATE_MAG_0486_Methanolinea_sp._UBA437_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0479_Methanolinea_sp._UBA145_Euryarchaeota and MATE_MAG_0488_Methanolinea_sp._UBA245_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0479_Methanolinea_sp._UBA145_Euryarchaeota and MATE_MAG_0493_Methanolinea_sp._UBA451_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0479_Methanolinea_sp._UBA145_Euryarchaeota and MATE_MAG_0500_Methanolinea_sp._UBA275_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0479_Methanolinea_sp._UBA145_Euryarchaeota and MATE_MAG_0510_Methanolinea_sp._UBA155_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0474_Methanoregula_sp._UBA247_Euryarchaeota and MATE_MAG_0480_Methanoregula_sp._UBA450_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0477_Methanoregula_sp._UBA244_Euryarchaeota and MATE_MAG_0483_Methanoregula_sp._UBA434_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0477_Methanoregula_sp._UBA244_Euryarchaeota and MATE_MAG_0487_Methanoregula_sp._UBA143_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0477_Methanoregula_sp._UBA244_Euryarchaeota and MATE_MAG_0491_Methanoregula_sp._UBA154_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0477_Methanoregula_sp._UBA244_Euryarchaeota and MATE_MAG_0501_Methanoregula_sp._UBA274_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0477_Methanoregula_sp._UBA244_Euryarchaeota and MATE_MAG_0502_Methanoregula_sp._UBA452_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0520_Methanoregula_sp._fen_47_Euryarchaeota and MATE_MAG_0522_Methanoregula_sp.isolate_fen_24_Euryarchaeota are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0108_Chloroflexi_bacterium_GWD2_49_16_Chloroflexi and MATE_MAG_0109_Chloroflexi_bacterium_GWB2_49_20_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0108_Chloroflexi_bacterium_GWD2_49_16_Chloroflexi and MATE_MAG_0110_Chloroflexi_bacterium_GWC2_49_37_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0116_Anaerolineales_bacterium_UBA4142_Chloroflexi and MATE_MAG_0117_Anaerolineales_bacterium_UBA4826_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0031_Ethanoligenens_harbinense_YUAN-3_Firmicutes-Clostridia and MATE_ISO_0179_Ethanoligenens_harbinense_B49_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0031_Ethanoligenens_harbinense_YUAN-3_Firmicutes-Clostridia and MATE_ISO_0180_Ethanoligenens_harbinense_X-29_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0031_Ethanoligenens_harbinense_YUAN-3_Firmicutes-Clostridia and MATE_ISO_0187_Ethanoligenens_harbinense_W1_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0553_Firmicutes_bacterium_UBA2530_Firmicutes-Clostridia and MATE_MAG_0593_Firmicutes_bacterium_UBA6827_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0559_Firmicutes_bacterium_UBA3553_Firmicutes-Clostridia and MATE_MAG_0587_Firmicutes_bacterium_UBA5526_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0159_Hungateiclostridium_straminisolvens_JCM_21531_Firmicutes-Clostridia and MATE_MAG_0556_Clostridiales_bacterium_UBA3578_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0169_Clostridium_sp._Bc-iso-3_Firmicutes-Clostridia and MATE_ISO_0176_Clostridium_sp._link-BC1_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0169_Clostridium_sp._Bc-iso-3_Firmicutes-Clostridia and MATE_ISO_0181_Hungateiclostridium_sp._N2K1_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0564_Syntrophomonas_sp._UBA4990_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0565_Syntrophomonas_sp._UBA4968_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0575_Syntrophomonas_sp._UBA5316_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0577_Syntrophomonas_sp._UBA5246_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0581_Syntrophomonas_sp._UBA5298_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0582_Syntrophomonas_sp._UBA5221_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0588_Syntrophomonas_sp._UBA5481_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0589_Syntrophomonas_sp._UBA5504_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0590_Syntrophomonas_sp._UBA5443_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0570_Syntrophomonas_sp._UBA4844_Firmicutes-Clostridia and MATE_MAG_0566_Syntrophomonas_sp._UBA4911_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0568_Syntrophomonas_sp._UBA4889_Firmicutes-Clostridia and MATE_MAG_0578_Syntrophomonas_sp._UBA5373_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0567_Syntrophomonas_sp._UBA4894_Firmicutes-Clostridia and MATE_MAG_0569_Syntrophomonas_sp._UBA4878_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0567_Syntrophomonas_sp._UBA4894_Firmicutes-Clostridia and MATE_MAG_0580_Syntrophomonas_sp._UBA5380_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0178_Dehalobacter_sp._MCB1_Firmicutes-Clostridia and MATE_ISO_0182_Dehalobacter_sp._12DCB1_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0026_Desulfitobacterium_dehalogenans_JWIU-DC1_Firmicutes-Clostridia and MATE_ISO_0156_Desulfitobacterium_sp._PCE1_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0162_Desulfosporosinus_sp._Tol-M_Ga0063340_Firmicutes-Clostridia and MATE_MAG_0561_Desulfosporosinus_sp._UBA4048_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0162_Desulfosporosinus_sp._Tol-M_Ga0063340_Firmicutes-Clostridia and MATE_MAG_0585_Desulfosporosinus_sp._UBA5775_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0572_Desulfosporosinus_sp._UBA4745_Firmicutes-Clostridia and MATE_MAG_0583_Desulfosporosinus_sp._UBA5188_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0572_Desulfosporosinus_sp._UBA4745_Firmicutes-Clostridia and MATE_MAG_0584_Desulfosporosinus_sp._UBA5179_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0407_Deltaproteobacteria_bacterium_B3_G2_Deltaproteobacteria and MATE_MAG_0409_Deltaproteobacteria_bacterium_B144_G9_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0703_Spirochaetes_bacterium_GWB1_60_80_Spirochaetes and MATE_MAG_0705_Spirochaetes_bacterium_GWC1_61_12_Spirochaetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0703_Spirochaetes_bacterium_GWB1_60_80_Spirochaetes and MATE_MAG_0706_Spirochaetes_bacterium_GWD1_61_31_Spirochaetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0703_Spirochaetes_bacterium_GWB1_60_80_Spirochaetes and MATE_MAG_0719_Spirochaetes_bacterium_GWE1_60_18_Spirochaetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0703_Spirochaetes_bacterium_GWB1_60_80_Spirochaetes and MATE_MAG_0720_Spirochaetes_bacterium_GWF1_60_12_Spirochaetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0406_Deltaproteobacteria_bacterium_B30_G6_Deltaproteobacteria and MATE_MAG_0408_Deltaproteobacteria_bacterium_B16_G4_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0202_Alkalispirochaeta_odontotermitis_JC202_Spirochaetes and MATE_MAG_0426_Deltaproteobacterium_sp._OalgD1a_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0202_Alkalispirochaeta_odontotermitis_JC202_Spirochaetes and MATE_MAG_0172_Olavius_algarvensis_Delta_1_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0223_Deltaproteobacteria_bacterium_CG2_30_66_27_Deltaproteobacteria and MATE_MAG_0313_Deltaproteobacteria_bacterium_CG_4_9_14_3_um_filter_65_9_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0339_bacterium_BMS3Bbin14_Deltaproteobacteria and MATE_MAG_0757_Unclassified_bacterium_BMS3Abin13 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0075_Desulfobulbus_sp._Tol-SR_Deltaproteobacteria and MATE_MAG_0268_Desulfobulbaceae_bacterium_UBA4056_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0257_Desulfobulbaceae_bacterium_UBA2248_Deltaproteobacteria and MATE_MAG_0280_Desulfobulbaceae_bacterium_UBA5750_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0103_Composite_genome_from_Trout_Bog_TBhypo.metabat.2922.v2_Chlorobi and MATE_MAG_0144_Desulfobulbaceae_bacterium_bacteria00229_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0246_Desulfovibrio_sp._UBA1335_Deltaproteobacteria and MATE_MAG_0295_Desulfovibrio_sp._UBA7315_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0088_Pseudodesulfovibrio_indicus_J2_Deltaproteobacteria and MATE_ISO_0103_Pseudodesulfovibrio_indicus_DSM_101483_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0343_Syntrophaceae_bacterium_bog_1109_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0344_Syntrophaceae_bacterium_bog_1108_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0345_Syntrophaceae_bacterium_bog_1107_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0347_Syntrophaceae_bacterium_bog_1171_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0353_Syntrophaceae_bacterium_fen_1159_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0370_Syntrophaceae_bacterium_bog_1172_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0371_Syntrophaceae_bacterium_bog_1156_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0374_Syntrophaceae_bacterium_bog_1094_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0375_Syntrophaceae_bacterium_bog_1093_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0376_Syntrophaceae_bacterium_bog_1091_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0377_Syntrophaceae_bacterium_bog_1090_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0342_Syntrophaceae_bacterium_bog_1111_Deltaproteobacteria and MATE_MAG_0346_Syntrophaceae_bacterium_bog_1110_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0167_Smithella_sp._SDB_Deltaproteobacteria and MATE_MAG_0422_Smithella_sp._SDB_sulfate1_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0266_Smithella_sp._UBA4047_Deltaproteobacteria and MATE_MAG_0283_Smithella_sp._UBA5724_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0285_Smithella_sp._UBA6208_Deltaproteobacteria and MATE_MAG_0293_Smithella_sp._UBA6798_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0247_Syntrophaceae_bacterium_UBA1164_Deltaproteobacteria and MATE_MAG_0297_Syntrophaceae_bacterium_UBA7544_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0261_Syntrophaceae_bacterium_UBA2251_Deltaproteobacteria and MATE_MAG_0264_Syntrophaceae_bacterium_UBA4065_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0194_Deltaproteobacteria_bacterium_RBG_16_58_17_Deltaproteobacteria and MATE_MAG_0216_Syntrophobacterales_bacterium_GWF2_56_9_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0194_Deltaproteobacteria_bacterium_RBG_16_58_17_Deltaproteobacteria and MATE_MAG_0219_Syntrophobacterales_bacterium_GWC2_56_13_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0351_Syntrophaceae_bacterium_fen_1164_Deltaproteobacteria and MATE_MAG_0378_Syntrophaceae_bacterium_fen_1101_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0252_Desulfobacteraceae_bacterium_UBA2156_Deltaproteobacteria and MATE_MAG_0254_Desulfobacteraceae_bacterium_UBA2130_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0252_Desulfobacteraceae_bacterium_UBA2156_Deltaproteobacteria and MATE_MAG_0284_Desulfobacteraceae_bacterium_UBA5681_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0252_Desulfobacteraceae_bacterium_UBA2156_Deltaproteobacteria and MATE_MAG_0299_Desulfobacter_sp._ARS36_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0251_Syntrophaceae_bacterium_UBA2188_Deltaproteobacteria and MATE_MAG_0269_Syntrophaceae_bacterium_UBA4816_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0307_Deltaproteobacteria_bacterium_CG03_land_8_20_14_0_80_45_14_Deltaproteobacteria and MATE_MAG_0310_Deltaproteobacteria_bacterium_CG_4_8_14_3_um_filter_45_9_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0222_Deltaproteobacteria_bacterium_CG2_30_43_15_Deltaproteobacteria and MATE_MAG_0305_Deltaproteobacteria_bacterium_CG06_land_8_20_14_3_00_44_19_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0613_Syntrophomonadaceae_bacterium_CSSed11_160_Firmicutes-Clostridia and MATE_MAG_0615_Syntrophomonadaceae_bacterium_T3Sed10_167_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0169_Deltaproteobacteria_bacterium_GWC2_55_46_Deltaproteobacteria and MATE_MAG_0183_Deltaproteobacteria_bacterium_GWA2_55_82_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0169_Deltaproteobacteria_bacterium_GWC2_55_46_Deltaproteobacteria and MATE_MAG_0197_Deltaproteobacteria_bacterium_RIFCSPLOWO2_02_FULL_55_12_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0675_Nitrospiraceae_bacterium_fen_1314_Nitrospirae and MATE_MAG_0677_Nitrospiraceae_bacterium_fen_1311_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0675_Nitrospiraceae_bacterium_fen_1314_Nitrospirae and MATE_MAG_0678_Nitrospiraceae_bacterium_fen_1305_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0681_Nitrospirae_bacterium_Nitrospirae and MATE_MAG_0683_Nitrospirae_bacterium_SZUA-452_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0198_Nitrospirae_bacterium_HCH-1_Nitrospirae and MATE_MAG_0663_Nitrospirae_bacterium_HCHbin1_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0659_Nitrospirae_bacterium_CG2_30_53_67_Nitrospirae and MATE_MAG_0665_Nitrospirae_bacterium_CG08_land_8_20_14_0_20_52_24_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0188_Deltaproteobacteria_bacterium_GWD2_42_10_Deltaproteobacteria and MATE_MAG_0189_Deltaproteobacteria_bacterium_GWF2_42_12_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0188_Deltaproteobacteria_bacterium_GWD2_42_10_Deltaproteobacteria and MATE_MAG_0195_Deltaproteobacteria_bacterium_RIFCSPHIGHO2_02_FULL_42_44_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0188_Deltaproteobacteria_bacterium_GWD2_42_10_Deltaproteobacteria and MATE_MAG_0199_Deltaproteobacteria_bacterium_RIFOXYA2_FULL_42_10_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0188_Deltaproteobacteria_bacterium_GWD2_42_10_Deltaproteobacteria and MATE_MAG_0214_Deltaproteobacteria_bacterium_RIFCSPLOWO2_02_FULL_42_39_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0673_Nitrospirae_bacterium_BMS3Abin07_Nitrospirae and MATE_MAG_0674_Nitrospirae_bacterium_BMS3Bbin05_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0650_Nitrospirae_bacterium_GWA2_46_11_Nitrospirae and MATE_MAG_0651_Nitrospirae_bacterium_GWB2_47_37_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0670_Nitrospirae_bacterium_CG_4_8_14_3_um_filter_44_28_Nitrospirae and MATE_MAG_0664_Nitrospirae_bacterium_CG22_combo_CG10-13_8_21_14_all_44_11_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0670_Nitrospirae_bacterium_CG_4_8_14_3_um_filter_44_28_Nitrospirae and MATE_MAG_0666_Nitrospirae_bacterium_CG02_land_8_20_14_3_00_44_33_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0670_Nitrospirae_bacterium_CG_4_8_14_3_um_filter_44_28_Nitrospirae and MATE_MAG_0671_Nitrospirae_bacterium_CG_4_10_14_3_um_filter_44_29_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0658_Nitrospirae_bacterium_CG1_02_44_142_Nitrospirae and MATE_MAG_0667_Nitrospirae_bacterium_CG01_land_8_20_14_3_00_44_22_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0658_Nitrospirae_bacterium_CG1_02_44_142_Nitrospirae and MATE_MAG_0672_Nitrospirae_bacterium_CG_4_9_14_3_um_filter_44_28_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0654_Nitrospirae_bacterium_RIFOXYA2_FULL_44_9_Nitrospirae and MATE_MAG_0656_Nitrospirae_bacterium_GWF2_44_13_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0654_Nitrospirae_bacterium_RIFOXYA2_FULL_44_9_Nitrospirae and MATE_MAG_0657_Nitrospirae_bacterium_RIFOXYC2_FULL_44_7_Nitrospirae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0077_Geobacter_soli_GSS01_Deltaproteobacteria and MATE_ISO_0090_Geobacter_anodireducens_SD-1_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0002_Geobacter_sulfurreducens_PCA_Deltaproteobacteria and MATE_ISO_0050_Geobacter_sulfurreducens_KN400_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0002_Geobacter_sulfurreducens_PCA_Deltaproteobacteria and MATE_ISO_0082_Geobacter_sulfurreducens_AM-1_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0016_Geobacter_metallireducens_GS-15_Deltaproteobacteria and MATE_ISO_0045_Geobacter_metallireducens_GS-15_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0102_Composite_genome_from_Trout_Bog_Hypolimnion_TBhypo.metabat.433_Chlorobi and MATE_MAG_0143_Desulfocapsaceae_bacteria00193_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0258_Geobacter_sp._UBA2265_Deltaproteobacteria and MATE_MAG_0263_Geobacter_sp._UBA4078_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0258_Geobacter_sp._UBA2265_Deltaproteobacteria and MATE_MAG_0281_Geobacter_sp._UBA5735_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0014_Geobacter_bemidjiensis_Bem_Deltaproteobacteria and MATE_ISO_0059_Geobacter_bremensis_R1_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0744_Synergistaceae_bacterium_UBA4921_Synergistetes and MATE_MAG_0745_Synergistaceae_bacterium_UBA5258_Synergistetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0554_Firmicutes_bacterium_UBA2269_Firmicutes-Clostridia and MATE_MAG_0560_Firmicutes_bacterium_UBA4049_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0554_Firmicutes_bacterium_UBA2269_Firmicutes-Clostridia and MATE_MAG_0592_Firmicutes_bacterium_UBA6245_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0554_Firmicutes_bacterium_UBA2269_Firmicutes-Clostridia and MATE_MAG_0595_Firmicutes_bacterium_UBA6800_Firmicutes-Clostridia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0450_Elusimicrobia_bacterium_CG_4_10_14_0_2_um_filter_56_8_Elusimicrobia and MATE_MAG_0448_Elusimicrobia_bacterium_CG1_02_56_21_Elusimicrobia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0095_Raymondbacteria_bacterium_RIFOXYA12_full_50_37_Raymondbacteria and MATE_MAG_0096_Raymondbacteria_bacterium_RIFOXYA2_FULL_49_16_Raymondbacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0095_Raymondbacteria_bacterium_RIFOXYA12_full_50_37_Raymondbacteria and MATE_MAG_0097_Raymondbacteria_bacterium_RIFOXYB12_full_50_8_Raymondbacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0095_Raymondbacteria_bacterium_RIFOXYA12_full_50_37_Raymondbacteria and MATE_MAG_0098_Raymondbacteria_bacterium_RIFOXYC12_full_50_8_Raymondbacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0095_Raymondbacteria_bacterium_RIFOXYA12_full_50_37_Raymondbacteria and MATE_MAG_0100_Raymondbacteria_bacterium_RIFOXYB2_FULL_49_35_Raymondbacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0124_Dehalococcoidia_bacterium_fen_1057_Chloroflexi and MATE_MAG_0126_Dehalococcoidia_bacterium_fen_1062_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0124_Dehalococcoidia_bacterium_fen_1057_Chloroflexi and MATE_MAG_0128_Dehalococcoidia_bacterium_fen_1048_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0124_Dehalococcoidia_bacterium_fen_1057_Chloroflexi and MATE_MAG_0129_Dehalococcoidia_bacterium_fen_1040_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0124_Dehalococcoidia_bacterium_fen_1057_Chloroflexi and MATE_MAG_0125_Dehalococcoidia_bacterium_fen_1055_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0122_Dehalococcoidia_bacterium_fen_1064_Chloroflexi and MATE_MAG_0123_Dehalococcoidia_bacterium_fen_1060_Chloroflexi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0061_Bacteroidales_bacterium_fen_974_Bacteroidetes and MATE_MAG_0064_Bacteroidales_bacterium_fen_959_Bacteroidetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0057_Bacteroidales_bacterium_fen_977_Bacteroidetes and MATE_MAG_0062_Bacteroidales_bacterium_fen_984_Bacteroidetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0053_Bacteroidales_bacterium_fen_983_Bacteroidetes and MATE_MAG_0056_Bacteroidales_bacterium_fen_978_Bacteroidetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0055_Bacteroidales_bacterium_fen_980_Bacteroidetes and MATE_MAG_0060_Bacteroidales_bacterium_fen_975_Bacteroidetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0031_Bacteroidales_bacteria00203_Bacteroidetes and MATE_MAG_0104_Composite_genome_from_Trout_Bog_TBhypo.metabat.5247_Chlorobi are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0780_WOR-1_bacterium_RIFOXYA12_FULL_43_27_WOR-1 and MATE_MAG_0782_WOR-1_bacterium_RIFOXYB2_FULL_46_45_WOR-1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0780_WOR-1_bacterium_RIFOXYA12_FULL_43_27_WOR-1 and MATE_MAG_0784_WOR-1_bacterium_RIFOXYC2_FULL_46_14_WOR-1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0780_WOR-1_bacterium_RIFOXYA12_FULL_43_27_WOR-1 and MATE_MAG_0786_WOR-1_bacterium_RIFOXYA2_FULL_46_56_WOR-1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0781_WOR-1_bacterium_RIFOXYB2_FULL_42_35_WOR-1 and MATE_MAG_0783_WOR-1_bacterium_RIFOXYC2_FULL_41_25_WOR-1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0781_WOR-1_bacterium_RIFOXYB2_FULL_42_35_WOR-1 and MATE_MAG_0785_WOR-1_bacterium_RIFOXYA2_FULL_41_14_WOR-1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0452_Elusimicrobia_bacterium_fen_1175_Elusimicrobia and MATE_MAG_0453_Elusimicrobia_bacterium_fen_1174_Elusimicrobia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0441_Elusimicrobia_bacterium_RIFOXYA12_FULL_49_49_Elusimicrobia and MATE_MAG_0442_Elusimicrobia_bacterium_RIFOXYA2_FULL_47_53_Elusimicrobia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0441_Elusimicrobia_bacterium_RIFOXYA12_FULL_49_49_Elusimicrobia and MATE_MAG_0444_Elusimicrobia_bacterium_RIFOXYB1_FULL_48_9_Elusimicrobia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0441_Elusimicrobia_bacterium_RIFOXYA12_FULL_49_49_Elusimicrobia and MATE_MAG_0445_Elusimicrobia_bacterium_RIFOXYB12_FULL_50_12_Elusimicrobia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0441_Elusimicrobia_bacterium_RIFOXYA12_FULL_49_49_Elusimicrobia and MATE_MAG_0446_Elusimicrobia_bacterium_RIFOXYB2_FULL_46_23_Elusimicrobia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0177_Bdellovibrionales_bacterium_RIFOXYC1_FULL_54_43_Deltaproteobacteria and MATE_MAG_0179_Bdellovibrionales_bacterium_RIFOXYD1_FULL_55_31_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0090_Firestonebacteria_bacterium_RIFOXYD2_FULL_39_29_Firestonebacteria and MATE_MAG_0091_Firestonebacteria_bacterium_RIFOXYC2_FULL_39_67_Firestonebacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0003_Solibacterales_bacterium_fen_415_Acidobacteria and MATE_MAG_0776_Opitutae_bacterium_fen_1433_Verrucomicrobia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0042_Bacteroidetes_bacterium_GWF2_35_48_Bacteroidetes and MATE_MAG_0043_Bacteroidetes_bacterium_RIFOXYA12_FULL_35_11_Bacteroidetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0042_Bacteroidetes_bacterium_GWF2_35_48_Bacteroidetes and MATE_MAG_0044_Bacteroidetes_bacterium_RIFOXYC12_FULL_35_7_Bacteroidetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0047_Bacteroidales_bacterium_UBA4133_Bacteroidetes and MATE_MAG_0048_Bacteroidales_bacterium_UBA5072_Bacteroidetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0041_Marinilabilia_salmonicolor_MSL42_Bacteroidetes and MATE_ISO_0042_Marinilabilia_salmonicolor_160A_Bacteroidetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0631_Ignavibacteriae_bacterium_fen_1272_Ignavibacteria and MATE_MAG_0633_Ignavibacteriae_bacterium_fen_1261_Ignavibacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0623_Ignavibacteriae_bacterium_fen_1300_Ignavibacteria and MATE_MAG_0625_Ignavibacteriae_bacterium_fen_1298_Ignavibacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0627_Ignavibacteriae_bacterium_fen_1292_Ignavibacteria and MATE_MAG_0630_Ignavibacteriae_bacterium_fen_1278_Ignavibacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0627_Ignavibacteriae_bacterium_fen_1292_Ignavibacteria and MATE_MAG_0628_Ignavibacteriae_bacterium_fen_1287_Ignavibacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0341_Myxococcales_bacterium_fen_1138_Deltaproteobacteria and MATE_MAG_0362_Myxococcales_bacterium_fen_1133_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0341_Myxococcales_bacterium_fen_1138_Deltaproteobacteria and MATE_MAG_0367_Myxococcales_bacterium_fen_1120_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0022_Actinobacteria_bacterium_fen_728_Actinobacteria and MATE_MAG_0024_Actinobacteria_bacterium_fen_731_Actinobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0707_Spirochaetes_bacterium_GWE1_32_154_Spirochaetes and MATE_MAG_0708_Spirochaetes_bacterium_GWE2_31_10_Spirochaetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0707_Spirochaetes_bacterium_GWE1_32_154_Spirochaetes and MATE_MAG_0709_Spirochaetes_bacterium_GWF1_31_7_Spirochaetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0707_Spirochaetes_bacterium_GWE1_32_154_Spirochaetes and MATE_MAG_0716_Spirochaetes_bacterium_RIFOXYB1_FULL_32_8_Spirochaetes are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0366_Myxococcales_bacterium_fen_1119_Deltaproteobacteria and MATE_MAG_0360_Myxococcales_bacterium_fen_1132_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0366_Myxococcales_bacterium_fen_1119_Deltaproteobacteria and MATE_MAG_0363_Myxococcales_bacterium_fen_1124_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0626_Ignavibacteriae_bacterium_fen_1294_Ignavibacteria and MATE_MAG_0629_Ignavibacteriae_bacterium_fen_1289_Ignavibacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0005_Acidobacteria_bacterium_fen_186_Acidobacteria and MATE_MAG_0006_Acidobacteria_bacterium_fen_181_Acidobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_ISO_0079_Geoalkalibacter_ferrihydriticus_DSM_17813_Deltaproteobacteria and MATE_ISO_0114_Geoalkalibacter_ferrihydriticus_DSM_17813_Deltaproteobacteria are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0636_Lentisphaerae_bacterium_RIFOXYA12_64_32_Lentisphaerae and MATE_MAG_0637_Lentisphaerae_bacterium_RIFOXYB12_FULL_65_16_Lentisphaerae are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0435_Elusimicrobia_bacterium_GWA2_64_40_Elusimicrobia and MATE_MAG_0437_Elusimicrobia_bacterium_GWB2_63_16_Elusimicrobia are exactly identical
+
+
+IMPORTANT WARNING: Sequences MATE_MAG_0275_Desulfobulbaceae_bacterium_UBA5121_Deltaproteobacteria and MATE_MAG_0292_Desulfobulbaceae_bacterium_UBA6913_Deltaproteobacteria are exactly identical
+
+IMPORTANT WARNING
+Found 191 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB_align_bmge.fasta.reduced
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 296 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 19.65%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 100 inferences on the original alignment using 100 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 296
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 4 -m PROTGAMMALGF -s Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB_align_bmge.fasta -p 12345 -#100 -n Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.106 0.046 0.031 0.033 0.042 0.013 0.035 0.101 0.016 0.061 0.118 0.036 0.021 0.042 0.058 0.047 0.056 0.017 0.024 0.096 
+
+Inference[0]: Time 4394.809739 GAMMA-based likelihood -134958.798707, best rearrangement setting 20
+alpha[0]: 0.798464 
+Inference[1]: Time 6641.535366 GAMMA-based likelihood -134951.413217, best rearrangement setting 25
+alpha[0]: 0.780565 
+Inference[2]: Time 5692.251036 GAMMA-based likelihood -134956.163446, best rearrangement setting 25
+alpha[0]: 0.784642 
+Inference[3]: Time 2690.972277 GAMMA-based likelihood -134892.395659, best rearrangement setting 15
+alpha[0]: 0.781125 
+Inference[4]: Time 5017.373757 GAMMA-based likelihood -134958.686986, best rearrangement setting 20
+alpha[0]: 0.793209 
+Inference[5]: Time 4696.344524 GAMMA-based likelihood -134945.105702, best rearrangement setting 20
+alpha[0]: 0.816122 
+Inference[6]: Time 3932.191274 GAMMA-based likelihood -134957.113155, best rearrangement setting 15
+alpha[0]: 0.811840 
+Inference[7]: Time 3387.930009 GAMMA-based likelihood -134961.461809, best rearrangement setting 25
+alpha[0]: 0.777267 
+Inference[8]: Time 5051.357375 GAMMA-based likelihood -134901.884713, best rearrangement setting 15
+alpha[0]: 0.819175 
+Inference[9]: Time 4654.622766 GAMMA-based likelihood -134940.891977, best rearrangement setting 20
+alpha[0]: 0.802097 
+Inference[10]: Time 3792.770685 GAMMA-based likelihood -134918.321113, best rearrangement setting 25
+alpha[0]: 0.815943 
+Inference[11]: Time 6173.003726 GAMMA-based likelihood -134978.440657, best rearrangement setting 25
+alpha[0]: 0.791549 
+Inference[12]: Time 6262.859185 GAMMA-based likelihood -134934.483394, best rearrangement setting 25
+alpha[0]: 0.788606 
+Inference[13]: Time 8896.362830 GAMMA-based likelihood -134985.022368, best rearrangement setting 25
+alpha[0]: 0.814454 
+Inference[14]: Time 3939.735107 GAMMA-based likelihood -134955.514457, best rearrangement setting 20
+alpha[0]: 0.820651 
+Inference[15]: Time 3946.414467 GAMMA-based likelihood -134919.222696, best rearrangement setting 15
+alpha[0]: 0.815262 
+Inference[16]: Time 4590.059907 GAMMA-based likelihood -134926.161371, best rearrangement setting 20
+alpha[0]: 0.822284 
+Inference[17]: Time 5615.638450 GAMMA-based likelihood -134948.912350, best rearrangement setting 25
+alpha[0]: 0.783918 
+Inference[18]: Time 6424.662010 GAMMA-based likelihood -134959.498601, best rearrangement setting 10
+alpha[0]: 0.783388 
+Inference[19]: Time 4931.510363 GAMMA-based likelihood -134880.391594, best rearrangement setting 15
+alpha[0]: 0.811691 
+Inference[20]: Time 4232.010458 GAMMA-based likelihood -134936.996554, best rearrangement setting 15
+alpha[0]: 0.815508 
+Inference[21]: Time 4621.030520 GAMMA-based likelihood -134912.456995, best rearrangement setting 20
+alpha[0]: 0.782503 
+Inference[22]: Time 5601.997235 GAMMA-based likelihood -134929.909860, best rearrangement setting 10
+alpha[0]: 0.788846 
+Inference[23]: Time 4563.747199 GAMMA-based likelihood -134980.142363, best rearrangement setting 20
+alpha[0]: 0.826686 
+Inference[24]: Time 4021.768743 GAMMA-based likelihood -134945.141585, best rearrangement setting 25
+alpha[0]: 0.809797 
+Inference[25]: Time 6387.001491 GAMMA-based likelihood -134919.947495, best rearrangement setting 25
+alpha[0]: 0.787281 
+Inference[26]: Time 3651.272326 GAMMA-based likelihood -134971.460314, best rearrangement setting 25
+alpha[0]: 0.807516 
+Inference[27]: Time 5389.128200 GAMMA-based likelihood -134968.783993, best rearrangement setting 15
+alpha[0]: 0.801451 
+Inference[28]: Time 4345.914540 GAMMA-based likelihood -134912.478091, best rearrangement setting 25
+alpha[0]: 0.775433 
+Inference[29]: Time 4107.147459 GAMMA-based likelihood -134960.053979, best rearrangement setting 25
+alpha[0]: 0.803535 
+Inference[30]: Time 4789.526402 GAMMA-based likelihood -134915.867054, best rearrangement setting 20
+alpha[0]: 0.834859 
+Inference[31]: Time 6610.574495 GAMMA-based likelihood -134945.453512, best rearrangement setting 25
+alpha[0]: 0.832015 
+Inference[32]: Time 4603.338603 GAMMA-based likelihood -135038.352800, best rearrangement setting 10
+alpha[0]: 0.812863 
+Inference[33]: Time 4007.313822 GAMMA-based likelihood -135028.300782, best rearrangement setting 20
+alpha[0]: 0.807390 
+Inference[34]: Time 3764.944027 GAMMA-based likelihood -134979.668838, best rearrangement setting 25
+alpha[0]: 0.812736 
+Inference[35]: Time 3850.905363 GAMMA-based likelihood -134935.293518, best rearrangement setting 25
+alpha[0]: 0.809731 
+Inference[36]: Time 6681.124429 GAMMA-based likelihood -134923.431022, best rearrangement setting 25
+alpha[0]: 0.816107 
+Inference[37]: Time 4426.660754 GAMMA-based likelihood -134914.707142, best rearrangement setting 15
+alpha[0]: 0.830386 
+Inference[38]: Time 5616.173309 GAMMA-based likelihood -134953.462051, best rearrangement setting 25
+alpha[0]: 0.808922 
+Inference[39]: Time 4435.313290 GAMMA-based likelihood -134921.968808, best rearrangement setting 25
+alpha[0]: 0.796621 
+Inference[40]: Time 6479.839134 GAMMA-based likelihood -134941.544288, best rearrangement setting 20
+alpha[0]: 0.804550 
+Inference[41]: Time 5889.363994 GAMMA-based likelihood -134956.033765, best rearrangement setting 20
+alpha[0]: 0.803839 
+Inference[42]: Time 5353.358802 GAMMA-based likelihood -134916.680292, best rearrangement setting 20
+alpha[0]: 0.788345 
+Inference[43]: Time 4890.260560 GAMMA-based likelihood -135000.833576, best rearrangement setting 20
+alpha[0]: 0.819645 
+Inference[44]: Time 5274.112179 GAMMA-based likelihood -134948.311598, best rearrangement setting 15
+alpha[0]: 0.808572 
+Inference[45]: Time 3647.967982 GAMMA-based likelihood -134953.190583, best rearrangement setting 25
+alpha[0]: 0.810128 
+Inference[46]: Time 4230.446439 GAMMA-based likelihood -134942.635707, best rearrangement setting 20
+alpha[0]: 0.792797 
+Inference[47]: Time 4525.632092 GAMMA-based likelihood -134983.325885, best rearrangement setting 25
+alpha[0]: 0.807542 
+Inference[48]: Time 4321.520132 GAMMA-based likelihood -134926.597796, best rearrangement setting 25
+alpha[0]: 0.816920 
+Inference[49]: Time 7835.986057 GAMMA-based likelihood -134921.710448, best rearrangement setting 25
+alpha[0]: 0.804646 
+Inference[50]: Time 4891.630479 GAMMA-based likelihood -134915.810159, best rearrangement setting 25
+alpha[0]: 0.803673 
+Inference[51]: Time 5797.440211 GAMMA-based likelihood -134977.152483, best rearrangement setting 25
+alpha[0]: 0.804499 
+Inference[52]: Time 5652.147594 GAMMA-based likelihood -134931.507975, best rearrangement setting 20
+alpha[0]: 0.791670 
+Inference[53]: Time 4977.779566 GAMMA-based likelihood -134945.843894, best rearrangement setting 15
+alpha[0]: 0.821356 
+Inference[54]: Time 5702.541064 GAMMA-based likelihood -134972.655109, best rearrangement setting 25
+alpha[0]: 0.835167 
+Inference[55]: Time 3825.354416 GAMMA-based likelihood -134956.053163, best rearrangement setting 25
+alpha[0]: 0.792625 
+Inference[56]: Time 8014.297574 GAMMA-based likelihood -134928.839363, best rearrangement setting 25
+alpha[0]: 0.812706 
+Inference[57]: Time 7982.407025 GAMMA-based likelihood -134894.103120, best rearrangement setting 20
+alpha[0]: 0.793282 
+Inference[58]: Time 3601.215822 GAMMA-based likelihood -135018.455977, best rearrangement setting 25
+alpha[0]: 0.811969 
+Inference[59]: Time 3792.903696 GAMMA-based likelihood -134947.879645, best rearrangement setting 15
+alpha[0]: 0.823874 
+Inference[60]: Time 6083.040504 GAMMA-based likelihood -134921.730475, best rearrangement setting 20
+alpha[0]: 0.806145 
+Inference[61]: Time 4721.477942 GAMMA-based likelihood -134910.687530, best rearrangement setting 20
+alpha[0]: 0.826132 
+Inference[62]: Time 5571.288308 GAMMA-based likelihood -134927.621134, best rearrangement setting 25
+alpha[0]: 0.829932 
+Inference[63]: Time 5940.688623 GAMMA-based likelihood -134937.388627, best rearrangement setting 25
+alpha[0]: 0.829793 
+Inference[64]: Time 5981.698017 GAMMA-based likelihood -134924.666567, best rearrangement setting 25
+alpha[0]: 0.811161 
+Inference[65]: Time 6245.543727 GAMMA-based likelihood -134939.365468, best rearrangement setting 20
+alpha[0]: 0.813442 
+Inference[66]: Time 7108.632612 GAMMA-based likelihood -134926.781359, best rearrangement setting 25
+alpha[0]: 0.794347 
+Inference[67]: Time 6953.770824 GAMMA-based likelihood -134920.166772, best rearrangement setting 25
+alpha[0]: 0.836771 
+Inference[68]: Time 4378.481508 GAMMA-based likelihood -134935.335833, best rearrangement setting 25
+alpha[0]: 0.815703 
+Inference[69]: Time 6239.867554 GAMMA-based likelihood -134921.666853, best rearrangement setting 20
+alpha[0]: 0.808355 
+Inference[70]: Time 4003.352967 GAMMA-based likelihood -134948.341684, best rearrangement setting 20
+alpha[0]: 0.802658 
+Inference[71]: Time 4093.733588 GAMMA-based likelihood -134945.925834, best rearrangement setting 15
+alpha[0]: 0.800339 
+Inference[72]: Time 4638.722684 GAMMA-based likelihood -134927.871081, best rearrangement setting 25
+alpha[0]: 0.811708 
+Inference[73]: Time 4112.635633 GAMMA-based likelihood -134936.708602, best rearrangement setting 20
+alpha[0]: 0.822083 
+Inference[74]: Time 6929.774191 GAMMA-based likelihood -134904.530705, best rearrangement setting 10
+alpha[0]: 0.773688 
+Inference[75]: Time 5216.290671 GAMMA-based likelihood -134979.857227, best rearrangement setting 25
+alpha[0]: 0.774218 
+Inference[76]: Time 5530.947773 GAMMA-based likelihood -134958.614174, best rearrangement setting 25
+alpha[0]: 0.831548 
+Inference[77]: Time 4225.090526 GAMMA-based likelihood -134969.531769, best rearrangement setting 25
+alpha[0]: 0.789959 
+Inference[78]: Time 4233.610562 GAMMA-based likelihood -134913.431674, best rearrangement setting 15
+alpha[0]: 0.828721 
+Inference[79]: Time 3818.190708 GAMMA-based likelihood -134932.529761, best rearrangement setting 25
+alpha[0]: 0.780659 
+Inference[80]: Time 4188.258069 GAMMA-based likelihood -134976.847169, best rearrangement setting 25
+alpha[0]: 0.830946 
+Inference[81]: Time 5562.794521 GAMMA-based likelihood -134912.025415, best rearrangement setting 20
+alpha[0]: 0.810656 
+Inference[82]: Time 4392.272574 GAMMA-based likelihood -134946.830240, best rearrangement setting 20
+alpha[0]: 0.809964 
+Inference[83]: Time 4468.221539 GAMMA-based likelihood -134915.499180, best rearrangement setting 25
+alpha[0]: 0.797706 
+Inference[84]: Time 6367.610195 GAMMA-based likelihood -134916.790430, best rearrangement setting 25
+alpha[0]: 0.832480 
+Inference[85]: Time 3664.349537 GAMMA-based likelihood -134980.464400, best rearrangement setting 15
+alpha[0]: 0.791647 
+Inference[86]: Time 3928.928585 GAMMA-based likelihood -134985.539123, best rearrangement setting 25
+alpha[0]: 0.801189 
+Inference[87]: Time 4407.975836 GAMMA-based likelihood -134960.059192, best rearrangement setting 25
+alpha[0]: 0.802637 
+Inference[88]: Time 5759.334768 GAMMA-based likelihood -134954.548033, best rearrangement setting 15
+alpha[0]: 0.812604 
+Inference[89]: Time 4860.357355 GAMMA-based likelihood -134966.871554, best rearrangement setting 15
+alpha[0]: 0.795731 
+Inference[90]: Time 3765.421013 GAMMA-based likelihood -134951.390919, best rearrangement setting 25
+alpha[0]: 0.801642 
+Inference[91]: Time 4812.662264 GAMMA-based likelihood -134943.336890, best rearrangement setting 25
+alpha[0]: 0.802103 
+Inference[92]: Time 5312.095552 GAMMA-based likelihood -134973.588862, best rearrangement setting 25
+alpha[0]: 0.802416 
+Inference[93]: Time 4247.123438 GAMMA-based likelihood -134953.777657, best rearrangement setting 20
+alpha[0]: 0.807282 
+Inference[94]: Time 6135.974328 GAMMA-based likelihood -134954.351444, best rearrangement setting 25
+alpha[0]: 0.818655 
+Inference[95]: Time 4963.297881 GAMMA-based likelihood -134938.403384, best rearrangement setting 20
+alpha[0]: 0.817308 
+Inference[96]: Time 5666.045583 GAMMA-based likelihood -134976.513795, best rearrangement setting 25
+alpha[0]: 0.787955 
+Inference[97]: Time 4786.644651 GAMMA-based likelihood -134993.080241, best rearrangement setting 25
+alpha[0]: 0.832715 
+Inference[98]: Time 4179.772478 GAMMA-based likelihood -134919.446712, best rearrangement setting 25
+alpha[0]: 0.825895 
+Inference[99]: Time 5160.138470 GAMMA-based likelihood -134934.114936, best rearrangement setting 15
+alpha[0]: 0.806269 
+
+
+Conducting final model optimizations on all 100 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -134960.930509 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.0
+Inference[1] final GAMMA-based Likelihood: -134952.213749 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.1
+Inference[2] final GAMMA-based Likelihood: -134957.805613 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.2
+Inference[3] final GAMMA-based Likelihood: -134896.228873 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.3
+Inference[4] final GAMMA-based Likelihood: -134959.325712 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.4
+Inference[5] final GAMMA-based Likelihood: -134944.956727 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.5
+Inference[6] final GAMMA-based Likelihood: -134957.880303 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.6
+Inference[7] final GAMMA-based Likelihood: -134964.283403 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.7
+Inference[8] final GAMMA-based Likelihood: -134901.903382 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.8
+Inference[9] final GAMMA-based Likelihood: -134941.106993 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.9
+Inference[10] final GAMMA-based Likelihood: -134918.097826 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.10
+Inference[11] final GAMMA-based Likelihood: -134980.336220 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.11
+Inference[12] final GAMMA-based Likelihood: -134935.455361 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.12
+Inference[13] final GAMMA-based Likelihood: -134985.027127 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.13
+Inference[14] final GAMMA-based Likelihood: -134955.513387 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.14
+Inference[15] final GAMMA-based Likelihood: -134919.293498 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.15
+Inference[16] final GAMMA-based Likelihood: -134926.174445 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.16
+Inference[17] final GAMMA-based Likelihood: -134952.735633 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.17
+Inference[18] final GAMMA-based Likelihood: -134961.234186 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.18
+Inference[19] final GAMMA-based Likelihood: -134880.151052 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.19
+Inference[20] final GAMMA-based Likelihood: -134937.024668 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.20
+Inference[21] final GAMMA-based Likelihood: -134913.744472 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.21
+Inference[22] final GAMMA-based Likelihood: -134929.934697 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.22
+Inference[23] final GAMMA-based Likelihood: -134980.503229 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.23
+Inference[24] final GAMMA-based Likelihood: -134945.405731 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.24
+Inference[25] final GAMMA-based Likelihood: -134922.317716 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.25
+Inference[26] final GAMMA-based Likelihood: -134971.543743 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.26
+Inference[27] final GAMMA-based Likelihood: -134970.431233 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.27
+Inference[28] final GAMMA-based Likelihood: -134916.685125 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.28
+Inference[29] final GAMMA-based Likelihood: -134960.552159 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.29
+Inference[30] final GAMMA-based Likelihood: -134916.797645 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.30
+Inference[31] final GAMMA-based Likelihood: -134945.338590 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.31
+Inference[32] final GAMMA-based Likelihood: -135038.401748 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.32
+Inference[33] final GAMMA-based Likelihood: -135028.695436 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.33
+Inference[34] final GAMMA-based Likelihood: -134979.888716 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.34
+Inference[35] final GAMMA-based Likelihood: -134935.753162 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.35
+Inference[36] final GAMMA-based Likelihood: -134923.432762 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.36
+Inference[37] final GAMMA-based Likelihood: -134915.230448 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.37
+Inference[38] final GAMMA-based Likelihood: -134953.898744 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.38
+Inference[39] final GAMMA-based Likelihood: -134922.674977 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.39
+Inference[40] final GAMMA-based Likelihood: -134943.367983 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.40
+Inference[41] final GAMMA-based Likelihood: -134956.476545 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.41
+Inference[42] final GAMMA-based Likelihood: -134919.229908 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.42
+Inference[43] final GAMMA-based Likelihood: -135000.823497 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.43
+Inference[44] final GAMMA-based Likelihood: -134948.618155 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.44
+Inference[45] final GAMMA-based Likelihood: -134953.343727 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.45
+Inference[46] final GAMMA-based Likelihood: -134942.664629 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.46
+Inference[47] final GAMMA-based Likelihood: -134983.956060 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.47
+Inference[48] final GAMMA-based Likelihood: -134926.575164 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.48
+Inference[49] final GAMMA-based Likelihood: -134922.417975 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.49
+Inference[50] final GAMMA-based Likelihood: -134916.471357 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.50
+Inference[51] final GAMMA-based Likelihood: -134978.387343 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.51
+Inference[52] final GAMMA-based Likelihood: -134931.519475 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.52
+Inference[53] final GAMMA-based Likelihood: -134945.798650 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.53
+Inference[54] final GAMMA-based Likelihood: -134973.596301 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.54
+Inference[55] final GAMMA-based Likelihood: -134956.346703 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.55
+Inference[56] final GAMMA-based Likelihood: -134929.522310 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.56
+Inference[57] final GAMMA-based Likelihood: -134896.378506 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.57
+Inference[58] final GAMMA-based Likelihood: -135019.200169 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.58
+Inference[59] final GAMMA-based Likelihood: -134947.988896 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.59
+Inference[60] final GAMMA-based Likelihood: -134922.302684 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.60
+Inference[61] final GAMMA-based Likelihood: -134910.533000 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.61
+Inference[62] final GAMMA-based Likelihood: -134928.150336 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.62
+Inference[63] final GAMMA-based Likelihood: -134937.613988 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.63
+Inference[64] final GAMMA-based Likelihood: -134925.081986 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.64
+Inference[65] final GAMMA-based Likelihood: -134939.532252 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.65
+Inference[66] final GAMMA-based Likelihood: -134928.014269 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.66
+Inference[67] final GAMMA-based Likelihood: -134919.562597 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.67
+Inference[68] final GAMMA-based Likelihood: -134935.501672 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.68
+Inference[69] final GAMMA-based Likelihood: -134921.300126 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.69
+Inference[70] final GAMMA-based Likelihood: -134948.538923 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.70
+Inference[71] final GAMMA-based Likelihood: -134946.731920 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.71
+Inference[72] final GAMMA-based Likelihood: -134927.978035 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.72
+Inference[73] final GAMMA-based Likelihood: -134936.801129 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.73
+Inference[74] final GAMMA-based Likelihood: -134905.756877 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.74
+Inference[75] final GAMMA-based Likelihood: -134986.231984 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.75
+Inference[76] final GAMMA-based Likelihood: -134959.129373 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.76
+Inference[77] final GAMMA-based Likelihood: -134971.288560 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.77
+Inference[78] final GAMMA-based Likelihood: -134913.456667 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.78
+Inference[79] final GAMMA-based Likelihood: -134935.430195 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.79
+Inference[80] final GAMMA-based Likelihood: -134977.244637 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.80
+Inference[81] final GAMMA-based Likelihood: -134912.450098 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.81
+Inference[82] final GAMMA-based Likelihood: -134947.519897 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.82
+Inference[83] final GAMMA-based Likelihood: -134914.438600 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.83
+Inference[84] final GAMMA-based Likelihood: -134916.649732 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.84
+Inference[85] final GAMMA-based Likelihood: -134982.976618 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.85
+Inference[86] final GAMMA-based Likelihood: -134986.613228 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.86
+Inference[87] final GAMMA-based Likelihood: -134960.945185 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.87
+Inference[88] final GAMMA-based Likelihood: -134954.356174 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.88
+Inference[89] final GAMMA-based Likelihood: -134968.281437 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.89
+Inference[90] final GAMMA-based Likelihood: -134952.688720 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.90
+Inference[91] final GAMMA-based Likelihood: -134943.494050 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.91
+Inference[92] final GAMMA-based Likelihood: -134975.069545 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.92
+Inference[93] final GAMMA-based Likelihood: -134954.018172 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.93
+Inference[94] final GAMMA-based Likelihood: -134954.483924 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.94
+Inference[95] final GAMMA-based Likelihood: -134938.398183 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.95
+Inference[96] final GAMMA-based Likelihood: -134977.265484 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.96
+Inference[97] final GAMMA-based Likelihood: -134993.642647 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.97
+Inference[98] final GAMMA-based Likelihood: -134919.569938 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.98
+Inference[99] final GAMMA-based Likelihood: -134934.367274 tree written to file /pool/genomics/gionfriddoc/RAxML_result.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs.RUN.99
+
+
+Starting final GAMMA-based thorough Optimization on tree 19 likelihood -134880.151052 .... 
+
+Final GAMMA-based Score of best tree -134880.151052
+
+Program execution info written to /pool/genomics/gionfriddoc/RAxML_info.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs
+Best-scoring ML tree written to: /pool/genomics/gionfriddoc/RAxML_bestTree.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ref-tree-ML100bs
+
+Overall execution time: 506955.152359 secs or 140.820876 hours or 5.867536 days
+

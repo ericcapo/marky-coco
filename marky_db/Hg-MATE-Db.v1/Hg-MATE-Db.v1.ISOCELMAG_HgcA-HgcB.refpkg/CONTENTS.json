@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "create_date": "2021-01-11 12:19:59",
+        "format_version": "1.1",
+        "locus": "HgcA-HgcB_concat"
+    },
+    "files": {
+        "phylo_model": "phylo_modelsqvcryxd.json",
+        "aln_fasta": "Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB_align_bmge.fasta",
+        "aln_sto": "Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB.stockholm",
+        "profile": "Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB.hmm",
+        "seq_info": "seq_info.csv",
+        "taxonomy": "taxa.csv",
+        "tree": "RAxML_bipartitions.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ML-100bs-tree-rooted",
+        "tree_stats": "RAxML_info.Hg-MATE-Db.v1.ISOCELMAG-HgcA-HgcB-ML-100bs-tree.txt"
+    },
+    "md5": {
+        "phylo_model": "d43028836f8bbec15c123560b23f64ab",
+        "aln_fasta": "5963c1387b5b8bdb53c08d6e295bda76",
+        "aln_sto": "9bf86e2cbd6bf958d21c8ccbbdf34e7e",
+        "profile": "86c558fc3fbd7c01a066705f0cf4edf2",
+        "seq_info": "0345c7bca355c59a86fa6f6cc549482a",
+        "taxonomy": "46c597195e52bbc5017d7a9ad23b46e7",
+        "tree": "be1add9b1529c60e98a39f8896ad3e9b",
+        "tree_stats": "037b55ad74e9e8a171a3c361ca340b98"
+    },
+    "log": [
+        "Stripped refpkg (removed 0 files)",
+        "Loaded initial files into empty refpkg"
+    ],
+    "rollback": null,
+    "rollforward": null
+}

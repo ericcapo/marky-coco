@@ -1,0 +1,61 @@
+rule fastp:
+	input:
+		r1="{sample}_1.fastq",
+		r2="{sample}_1.fastq",
+	output:
+		out1="{sample}_tmp/{sample}_P1.fastq",
+		out2="{sample}_tmp/{sample}_P2.fastq",
+		out3="{sample}_outputs/{sample}_fastp.html",
+		out4="{sample}_outputs/{sample}_fastp.json",
+	shell: "fastp -i {input.r1} -I {input.r2} -o {output.out1} -O {output.out2} -h {output.out3} -j {output.out4} -q 30 -l 25 -w 6 --detect_adapter_for_pe --trim_poly_g --trim_poly_x"
+
+rule megahit:
+	input:
+		r1="{sample}_tmp/{sample}_P1.fastq",
+		r2="{sample}_tmp/{sample}_P2.fastq"
+	threads: 12
+	output: directory("{sample}_tmp/{sample}_megahit")
+	shell: "megahit -1 {input.r1} -2 {input.r2} -o {output} -t {threads}"
+
+rule bt2build:
+	input: "{sample}_tmp/{sample}_megahit/final.contigs.fa",
+	params:
+		basename="{sample}_tmp/{sample}.index"
+	output:
+		output1="{sample}_tmp/{sample}.index.1.bt2",
+		output2="{sample}_tmp/{sample}.index.2.bt2",
+		output3="{sample}_tmp/{sample}.index.3.bt2",
+		output4="{sample}_tmp/{sample}.index.4.bt2",
+		outputrev1="{sample}_tmp/{sample}.index.rev.1.bt2",
+		outputrev2="{sample}_tmp/{sample}.index.rev.2.bt2"
+	shell: "bowtie2-build {input} {params.basename}"
+
+rule bowtie2:
+	input:
+		r1="{sample}_tmp/{sample}_P1.fastq",
+		r2="{sample}_tmp/{sample}_P2.fastq",
+	output: "{sample}_tmp/{sample}.bam"
+	run:
+		shell("bowtie2 -1 {input.r1} -2 {input.r2} -x {wildcards.sample}_tmp/{wildcards.sample}.index -p 6 | samtools view -Sb | samtools sort > {output}")
+		shell("(bowtie2 -1 {input.r1} -2 {input.r2} -x {wildcards.sample}_tmp/{wildcards.sample}.index -p 6 -S {wildcards.sample}_tmp/{wildcards.sample}.sam) 2> {wildcards.sample}_outputs/{wildcards.sample}_bowtie2.log")
+	
+rule prodigal:
+	input: "{sample}_tmp/{sample}_megahit/final.contigs.fa",
+	output:
+		gff="{sample}_tmp/{sample}_genes.gff",
+		faa="{sample}_tmp/{sample}_proteins.faa"
+	shell: "prodigal -i {input} -o {output.gff} -f gff -a {output.faa}"
+
+rule featureCounts:
+	input:
+		gff="{sample}_tmp/{sample}_genes.gff",
+		bam="{sample}_tmp/{sample}.bam"
+	output:
+		"{sample}_tmp/{sample}_counts.tsv",
+	shell: "featureCounts -t CDS -o {output} -g ID -a {input.gff} {input.bam}"
+
+rule genesearch:
+	input:"{sample}_tmp/{sample}_counts.tsv",
+	output:"{sample}_outputs/{sample}_hgcA_final.txt",
+	shell:"workflow/genesearch.sh {input} {output} {wildcards.sample}"
+
