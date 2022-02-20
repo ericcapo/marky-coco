@@ -62,9 +62,9 @@ This software will produce a folder {sample}_outputs including:
 * To <b>assign NCBI txid to the corresponding taxonomy</b>, you can use the R script below  or do a manual assignment with db/db_txid_2202220  if you have only few  hgcA gene homologs. If the database do not include the txid you found in your sample, check the identity here https://www.ncbi.nlm.nih.gov/taxonomy/?term=txid
 ```
 R
->db <- read.table("db/db_txid_220220.txt",h=T)
->a <- read.table("{sample}_outputs/{sample}_hgcA_final.txt", h=T)
->b <- merge(db, a, by="txid", all.x=F, all.y=T)
->write.table(b, file="{sample}_outputs/{sample}_hgcA_final2.txt", sep="\t", row.names=F)
+> db <- read.table("db/db_txid_220220.txt",h=T)
+> a <- read.table("{sample}_outputs/{sample}_hgcA_final.txt", h=T)
+> b <- merge(db, a, by="txid", all.x=F, all.y=T)
+> write.table(b, file="{sample}_outputs/{sample}_hgcA_final2.txt", sep="\t", row.names=F)
 ```
 * To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes.
