@@ -24,7 +24,7 @@ guppy classify -c db/Hg-MATE-Db.v1/Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.refpkg --pp
 guppy to_csv --point-mass --pp -o ${sample}_tmp/${sample}_hgcA_classifications.csv ${sample}_tmp/${sample}_hgcA_proteins.jplace
 guppy tog --pp -o ${sample}_outputs/${sample}_hgcA_tree.nwk ${sample}_tmp/${sample}_hgcA_proteins.jplace
 sed -e '1,1d' ${sample}_tmp/${sample}_hgcA_classifications.csv > ${sample}_tmp/${sample}_hgcA_txid.txt
-awk -F {"\"*,\"*"} {'{print $2,$11}'} ${sample}_tmp/${sample}_hgcA_txid.txt  | sort > ${sample}_tmp/${sample}_hgcA_txid2.txt
+awk -vFPAT='([^,]*)|({"[^"]+"})' '{print $2, $11}' ${sample}_tmp/${sample}_hgcA_txid.txt  | sort > ${sample}_tmp/${sample}_hgcA_txid2.txt
 paste ${sample}_tmp/${sample}_hgcA_counts.txt ${sample}_tmp/${sample}_hgcA_txid2.txt ${sample}_tmp/${sample}_hgcA_seq.txt | sed 's/$/ hgcA_hom/'  > ${sample}_tmp/${sample}_hgcA_almost.txt
 awk {'{print $1,$2,$3,$4,$6,$8,$9}'} ${sample}_tmp/${sample}_hgcA_almost.txt > ${sample}_tmp/${sample}_hgcA_almost2.txt
 echo -e 'gene_id length read cov txid sequence gene_type' | cat - ${sample}_tmp/${sample}_hgcA_almost2.txt > ${output}
