@@ -37,7 +37,7 @@ sbatch marky_to_slurm.sh sample
 
 
 ## ADVANCED USAGE
-Standards input files are paired-end fastq files (sample_1.fastq & sample_2.fastq). Alternately, intermediate files can be used but require to be placec in the sample_tmp folder as following:
+Standards input files are paired-end fastq files (sample_1.fastq & sample_2.fastq). Alternately, intermediate files can be used with marky.sh because the pipeline in based on a snakemake structure. To work, you need to be placed in the sample_tmp folder as following:
 * sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
 * sample_tmp/sample_megahit/final.contigs.fa # megahit outputs
 * sample_tmp/sample.bam # bowtie2 outputs
