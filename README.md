@@ -24,11 +24,6 @@ bash marky.sh sample
 ```
 
 ## SLURM USAGE
-* Copy your metagenomes (sample_1.fastq and sample_2.fastq) in the folder marky. 
-* Activate the conda environment
-```
-conda activate coco
-```
 * Run the marky_to_slurm function
 ```
 sbatch marky_to_slurm.sh sample
