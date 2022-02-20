@@ -36,12 +36,12 @@ The raw paired-end fastq files are processed with a suite of sofware.
 You can modify parameters for each step in the file workflow/Snakefile or workflow/genesearch.sh.
 
 ## OUTPUTS
-This software will produce a folder {sample}_outputs that include outputs
-* {sample}_hgcA_final.txt includes, for each detected gene, the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences. SEE IMPORTANT NOTES.
-* {sample}_hgcB_final.txt includes, for each detected gene, the number of reads, gene length (bp), coverage values (nb of read/bp) and the amino acid sequences. SEE IMPORTANT NOTES.
-* {sample}_rpoBb_final.txt and {sample}_rpoBa_final.txt includes, for each gene, the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp)
-* {sample}_fastp.html and {sample}_fastp.html are outputs files for the fastp step
-* {sample}_bowtie2.log provide informations about the number of mapped reads
+This software will produce a folder {sample}_outputs including:
+* a file hgcA_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences. See <b>IMPORTANT NOTES</b> for data intepretation.
+* a file hgcB_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp) and the amino acid sequences. 
+* a file rpoBb_final.txt and a file rpoBa_final.txt with: gene id, the number of reads, gene length (bp), coverage values (nb of read/bp).
+* a file fastp.html and and a file fastp.html that are outputs for the fastp step.
+* a file bowtie2.log that is output for the bowtie2 step.
 
 ## IMPORTANT NOTES
 * <b>Not all detected hgcA gene homologs are true hgcA genes</b>. True hgcA genes are only the ones with the following amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
