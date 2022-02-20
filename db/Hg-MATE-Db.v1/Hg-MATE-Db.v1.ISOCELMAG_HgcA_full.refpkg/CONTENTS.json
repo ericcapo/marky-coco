@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "create_date": "2020-12-18 11:00:40",
+        "format_version": "1.1",
+        "locus": "HgcA_full"
+    },
+    "files": {
+        "phylo_model": "phylo_modelgt7kl_xt.json",
+        "aln_fasta": "Hg-MATE-Db.v1.ISOCELMAG_HgcA_full_align-bmge.fasta",
+        "aln_sto": "Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.stockholm",
+        "profile": "Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.hmm",
+        "seq_info": "seq_info.csv",
+        "taxonomy": "taxa.csv",
+        "tree": "RAxML_bipartitions.Hg-MATE-Db.v1.ISOCELMAG-HgcA-Full-ML-100bs-tree-rooted",
+        "tree_stats": "RAxML_info.Hg-MATE-Db.v1.ISOCELMAG_HgcA_full-ref-tree-ML100bs"
+    },
+    "md5": {
+        "phylo_model": "be45972d71129e7a070fa570a573c000",
+        "aln_fasta": "5e7f79563fdf8e52aabff8086100db52",
+        "aln_sto": "69b5b80891f18984e6a19606bba8efd3",
+        "profile": "b7e93c664aa79f5ae941b8749a062c41",
+        "seq_info": "0345c7bca355c59a86fa6f6cc549482a",
+        "taxonomy": "46c597195e52bbc5017d7a9ad23b46e7",
+        "tree": "3fc758df9ce02515d8046a153da3e971",
+        "tree_stats": "70cc4aa1604f05c24d59cbc58d87740d"
+    },
+    "log": [
+        "Stripped refpkg (removed 0 files)",
+        "Loaded initial files into empty refpkg"
+    ],
+    "rollback": null,
+    "rollforward": null
+}
