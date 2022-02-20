@@ -34,18 +34,8 @@ bash marky.sh sample
 sbatch marky_to_slurm.sh sample
 ```
 
-## WORKFLOW
-The raw paired-end fastq files are processed with a suite of sofware. 
-* fastp # trim and clean the raw reads
-* megahit # de-novo assembly of cleaned reads
-* bowtie2 # mapp the cleaned reads to the de-novo assembly
-* prodigal # predict protein-coding genes from the de-novo assembly
-* featureCounts # count reads associated to each gene
-* workflow/genesearch.sh. # custom script detecting hgc gene homologs and extract their features
-You can modify parameters for each step in the file workflow/Snakefile or workflow/genesearch.sh.
 
-
-## INPUTS
+## ADVANCED USAGE
 Standards input files are paired-end fastq files:
 * sample_1.fastq & sample_2.fastq
 
@@ -55,6 +45,17 @@ Alternately, you can use intermediate files but you need to copy then in marky f
 * sample_tmp/sample.bam # bowtie2 outputs
 * sample_tmp/sample_proteins.faa # prodigal (or prokka) outputs
 * sample_tmp/sample_counts.tsv # featureCounts outputs
+
+
+## WORKFLOW
+The raw paired-end fastq files are processed with a suite of sofware. 
+* fastp # trim and clean the raw reads
+* megahit # de-novo assembly of cleaned reads
+* bowtie2 # mapp the cleaned reads to the de-novo assembly
+* prodigal # predict protein-coding genes from the de-novo assembly
+* featureCounts # count reads associated to each gene
+* workflow/genesearch.sh. # custom script detecting hgc gene homologs and extract their features
+You can modify parameters for each step in the file workflow/Snakefile or workflow/genesearch.sh.
 
 
 ## OUTPUTS
