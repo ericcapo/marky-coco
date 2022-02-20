@@ -39,7 +39,6 @@ sbatch marky_to_slurm.sh sample
 - Only paired-end data are supported right now.
 - Input files should look like that sample_1.fastq and sample_2.fastq. 
 
-
 ## WORKFLOW
 The raw paired-end fastq files are processed with a suite of sofware. 
 * fastp # trim and clean the raw reads
