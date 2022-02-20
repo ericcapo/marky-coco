@@ -1,5 +1,6 @@
 # marky-coco
-Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is paired to the hgcAB gene catalogue <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>. 
+Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is paired to the hgcAB gene catalogue <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>. The raw paired-end fastq files are processed with a suite of sofware: fastp to trim and clean the raw reads, megahit for de-novo assembly, bowtie2 to map the cleaned reads to the de-novo assembly, prodigal to predict protein-coding genes, featureCounts to count the number of reads associated to each gene. Finally workflow/genesearch.sh is a    custom bash script allowing to detect hgc gene homologs and extract their features (coverage values, taxonomy, amino acid sequences).  
+
 
 
 ## INSTALL
@@ -65,6 +66,7 @@ This software will produce a folder {sample}_outputs including:
 
 
 ## IMPORTANT NOTES
+* You can modify the parameters for each step of the software in the file workflow/Snakefile and/or workflow/genesearch.sh.
 * <b>True hgcA genes</b> include one of the amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
 * <b>True hgcB genes</b> include one of the amino acids motifs: CMECGA and CIEGCA
 * To <b>find hgcB genes side-by-side with hgcA genes</b> in the same contig (so co-located in a microbial genome), look the 3nd number in their gene_id (corresponding to contigs id). Note that the 3rd number of the gene_id corresponds to the number of the genes on contigs. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
