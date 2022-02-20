@@ -10,8 +10,7 @@ cd marky
 source conda env create -f Coco.environment.yml
 ```
 
-You need to activate conda on your computer prior to running the "Source" line before. 
-Go here for instructions https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+To install & activate conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 ## ACTIVATE THE CONDA ENVIRONMENT
 
