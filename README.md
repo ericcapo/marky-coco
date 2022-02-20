@@ -26,7 +26,7 @@ conda activate environment.yml
 bash marky.sh sample
 ```
 
-If doesn´t work:
+If it doesn´t work:
 - Only paired-end data are supported right now.
 - Input files should look like that sample_1.fastq and sample_2.fastq. 
 - Do "chmod +x marky.sh" and re-try. In the following line below,
