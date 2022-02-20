@@ -13,7 +13,7 @@ conda env create -f environment.yml
 To install conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 ## BASIC USAGE
-* Copy your files (sample_1.fastq and sample_2.fastq) in the folder marky. 
+* Copy your files (sample_1.fastq and sample_2.fastq) in the folder marky. Use 'gunzip' if your fastq are in fastq.gz format.
 ```
 cp /remote/folder/sample_1.fastq .
 cp /remote/folder/sample_2.fastq .
