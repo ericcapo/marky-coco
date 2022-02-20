@@ -29,7 +29,7 @@ bash marky.sh sample
 ```
 
 ## SLURM USAGE
-* Run the marky_to_slurm function
+* Run the marky_to_slurm file. You can modify the requested amount of time in the file.
 ```
 sbatch marky_to_slurm.sh sample
 ```
