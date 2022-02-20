@@ -30,7 +30,6 @@ bash marky.sh sample
 
 ```
 sbatch marky_to_slurm.sh sample
-
 ```
 
 * If it doesn´t work:
