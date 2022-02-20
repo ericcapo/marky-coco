@@ -48,7 +48,7 @@ You can modify parameters for each step in the file workflow/Snakefile or workfl
 Standards input files are
 * sample_1.fastq & sample_2.fastq
 
-You can use different types of inputs since this pipeline is based on a snakemake structure. If you want to start with files your already produced from raw fastq files, here are the locatio where yours files should be.
+Alternately, you can use intermediate files but you need to copy then in marky folder as following:
 * sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
 * sample_tmp/sample_megahit/final.contigs.fa # megahit outputs
 * sample_tmp/sample.bam # bowtie2 outputs
