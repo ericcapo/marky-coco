@@ -34,7 +34,6 @@ bash marky.sh sample
 sbatch marky_to_slurm.sh sample
 ```
 
-
 ## WORKFLOW
 The raw paired-end fastq files are processed with a suite of sofware. 
 * fastp # trim and clean the raw reads
@@ -45,6 +44,15 @@ The raw paired-end fastq files are processed with a suite of sofware.
 * workflow/genesearch.sh. # custom script detecting hgc gene homologs and extract their features
 You can modify parameters for each step in the file workflow/Snakefile or workflow/genesearch.sh.
 
+## INPUTS
+Standards input files are
+* sample_1.fastq & sample_2.fastq
+You can use different types of inputs since this pipeline is based on a snakemake structure. If you want to start with files your already produced from raw fastq files, here is where you need to place yours file for the pipeline to work
+* sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
+* sample_tmp/sample_megahit/final.contigs.fa # megahit outputs
+* sample_tmp/sample.bam # bowtie2 outputs
+* sample_tmp/sample_proteins.faa # prodigal (or prokka) outputs
+* sample_tmp/sample_counts.tsv # featureCounts outputs
 
 ## OUTPUTS
 This software will produce a folder {sample}_outputs including:
@@ -53,7 +61,6 @@ This software will produce a folder {sample}_outputs including:
 * a file rpoBb_final.txt (bacterial rpoB genes) and a file rpoBa_final.txt (archaeal rpoB genes) including coverage values (nb of read/bp).
 * a file fastp.html and and a file fastp.html that are outputs for the fastp step.
 * a file bowtie2.log that is output for the bowtie2 step.
-
 
 ## IMPORTANT NOTES
 * <b>True hgcA genes</b> include one of the amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
@@ -71,6 +78,5 @@ R
 * To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes.
 
 ## METHODS
-
-To detect, count and identify hgcAB genes, the data were analyzed with <a href="https://academic.oup.com/bioinformatics/article/34/17/i884/5093234" target="_blank"><b>marky-coco</b></a>. The metagenomes were trimmed and cleaned using <a href="https://academic.oup.com/bioinformatics/article/34/17/i884/5093234" target="_blank"><b>fastp</b></a> (Chen et al. 2018) with following parameters: -q 30 -l 25--detect_adapter_for_pe --trim_poly_g --trim_poly_x. A de novo single assembly approach was applied using the assembler <a href="https://github.com/voutcn/megahit" target="_blank"><b>megahit</b></a> 1.1.2 (Li et al 2016) with default settings. The annotation of the contigs for prokaryotic protein-coding gene prediction was done with the software <a href="https://github.com/hyattpd/Prodigal" target="_blank"><b>prodigal</b></a> 2.6.3 (Hyatt et al 2010) (Hyatt et al., 2010). The DNA reads were mapped against the contigs with <a href="http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml" target="_blank"><b>bowtie2</b></a> (Langdmead and Salzberg 2012), and the resulting .sam files were converted to .bam files using <a href="http://www.htslib.org/" target="_blank"><b>samtools</b></a> 1.9 (Li et al 2009). The .bam files and the prodigal output .gff file were used to estimate read counts by using <a href="https://rnnh.github.io/bioinfo-notebook/docs/featureCounts.html" target="_blank"><b>featureCounts</b></a>  (Liao et al 2014). In order to detect hgc homologs, HMM profiles derived from the Hg-MATE db v1. were applied to the amino acid FASTA file generated from each assembly with the function hmmsearch from <a href="http://hmmer.org/" target="_blank"><b>hmmer</b></a> 3.2.1 (Finn et al 2011). Once done, the counts (read numbers), length (bp) and amino acid sequences of each hgc homologs was extracted from Prodigal and featureCounts outputs. We define genes as hgcA if their amino acid sequence includes one of the following motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK and as hgcB if their amino acid sequence includes one of the following motifs CMECGA and CIEGCA. The reference package ‘hgcA’ from Hg-MATE.db.v1 was used for phylogenetic analysis of the HgcA amino acid sequences. Briefly, amino acid sequences from gene identified as hgcA gene homolog were (i) compiled in a FASTA file, (ii) aligned to Stockholm formatted alignment of hgcA sequences from the reference package with the function hmmalign from hmmer 3.2.2, (iii) placed onto the HgcA reference tree with the function pplacer and (iv) classified using the functions rppr and guppy_classify from the program <a href="https://matsen.fhcrc.org/pplacer/" target="_blank"><b>pplacer</b></a> (Masten et al. 2010). For more details, see in the README.txt of the <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE db</b></a>. Counts of hgc genes were calculated, for each gene and each sample, as the number of reads divided by the length of detected genes (read/bp). 
+The detection, counting and taxonomic identification of hgcAB genes was done with <a href="https://academic.oup.com/bioinformatics/article/34/17/i884/5093234" target="_blank"><b>marky-coco</b></a>. The metagenomes were trimmed and cleaned using <a href="https://academic.oup.com/bioinformatics/article/34/17/i884/5093234" target="_blank"><b>fastp</b></a> (Chen et al. 2018) with following parameters: -q 30 -l 25--detect_adapter_for_pe --trim_poly_g --trim_poly_x. A de novo single assembly approach was applied using the assembler <a href="https://github.com/voutcn/megahit" target="_blank"><b>megahit</b></a> 1.1.2 (Li et al 2016) with default settings. The annotation of the contigs for prokaryotic protein-coding gene prediction was done with the software <a href="https://github.com/hyattpd/Prodigal" target="_blank"><b>prodigal</b></a> 2.6.3 (Hyatt et al 2010) (Hyatt et al., 2010). The DNA reads were mapped against the contigs with <a href="http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml" target="_blank"><b>bowtie2</b></a> (Langdmead and Salzberg 2012), and the resulting .sam files were converted to .bam files using <a href="http://www.htslib.org/" target="_blank"><b>samtools</b></a> 1.9 (Li et al 2009). The .bam files and the prodigal output .gff file were used to estimate read counts by using <a href="https://rnnh.github.io/bioinfo-notebook/docs/featureCounts.html" target="_blank"><b>featureCounts</b></a>  (Liao et al 2014). In order to detect hgc homologs, HMM profiles derived from the Hg-MATE db v1. were applied to the amino acid FASTA file generated from each assembly with the function hmmsearch from <a href="http://hmmer.org/" target="_blank"><b>hmmer</b></a> 3.2.1 (Finn et al 2011). Once done, the counts (read numbers), length (bp) and amino acid sequences of each hgc homologs was extracted from Prodigal and featureCounts outputs. We define genes as hgcA if their amino acid sequence includes one of the following motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK and as hgcB if their amino acid sequence includes one of the following motifs CMECGA and CIEGCA. The reference package ‘hgcA’ from Hg-MATE.db.v1 was used for phylogenetic analysis of the HgcA amino acid sequences. Briefly, amino acid sequences from gene identified as hgcA gene homolog were (i) compiled in a FASTA file, (ii) aligned to Stockholm formatted alignment of hgcA sequences from the reference package with the function hmmalign from hmmer 3.2.2, (iii) placed onto the HgcA reference tree with the function pplacer and (iv) classified using the functions rppr and guppy_classify from the program <a href="https://matsen.fhcrc.org/pplacer/" target="_blank"><b>pplacer</b></a> (Masten et al. 2010). For more details, see in the README.txt of the <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE db</b></a>. Counts of hgc genes were calculated, for each gene and each sample, as the number of reads divided by the length of detected genes (read/bp). 
 
