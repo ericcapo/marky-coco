@@ -15,8 +15,8 @@ To install conda, read instructions here https://docs.conda.io/projects/conda/en
 ## BASIC USAGE
 * Copy your files (sample_1.fastq and sample_2.fastq) in the folder marky. 
 ```
-cp /remote/location/sample_1.fastq .
-cp /remote/location/sample_2.fastq .
+cp /remote/folder/sample_1.fastq .
+cp /remote/folder/sample_2.fastq .
 ```
 * Activate the conda environment
 ```
