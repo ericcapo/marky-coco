@@ -45,17 +45,6 @@ Standards input files are paired-end fastq files (sample_1.fastq & sample_2.fast
 * sample_tmp/sample_counts.tsv # featureCounts outputs
 
 
-## WORKFLOW
-The raw paired-end fastq files are processed with a suite of sofware. 
-* fastp # trim and clean the raw reads
-* megahit # de-novo assembly of cleaned reads
-* bowtie2 # mapp the cleaned reads to the de-novo assembly
-* prodigal # predict protein-coding genes from the de-novo assembly
-* featureCounts # count reads associated to each gene
-* workflow/genesearch.sh. # custom script detecting hgc gene homologs and extract their features
-You can modify parameters for each step in the file workflow/Snakefile or workflow/genesearch.sh.
-
-
 ## OUTPUTS
 This software will produce a folder {sample}_outputs including:
 * a file hgcA_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences. See <b>IMPORTANT NOTES</b> for data intepretation.
