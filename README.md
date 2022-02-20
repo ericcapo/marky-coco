@@ -8,7 +8,7 @@ manually:
 ```
 git clone https://github.com/ericcapo/marky.git
 cd marky
-Source conda env create -f Coco.environment.yml
+source conda env create -f Coco.environment.yml
 ```
 
 You need to activate conda on your computer prior to running the "Source" line before. 
@@ -17,7 +17,7 @@ Go here for instructions https://docs.conda.io/projects/conda/en/latest/user-gui
 ## ACTIVATE THE CONDA ENVIRONMENT
 
 ```
-Source activate Coco_environment.yml
+conda activate Coco_environment.yml
 ```
 
 ## USAGE
