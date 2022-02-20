@@ -33,7 +33,7 @@ The raw fastq data are proceed with different sofwares. Feel free to modify thei
 * bowtie2 # mapp the cleaned reads to the de-novo assembly
 * prodigal # predict protein-coding genes from the de-novo assembly
 * featureCounts # count reads associated to each gene
-* workflow/genesearch.sh #custom bash script based on hmmsearch function. It detect hgc gene homologs and rpoB genes and extract their features.
+* workflow/genesearch.sh # custom script detecting hgc gene homologs and extract their features
 
 ## OUTPUTS
 This software will produce a folder {sample}_outputs that include outputs
