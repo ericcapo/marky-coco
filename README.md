@@ -5,9 +5,9 @@ This software is a ready-to-use pipeline to detect and identify hgcAB genes from
 ## INSTALL
 
 ```
-git clone https://github.com/ericcapo/marky.git
+git clone https://github.com/ericcapo/marky-coco.git
 cd marky
-source conda env create -f Coco.environment.yml
+source conda env create -f environment.yml
 ```
 
 To install & activate conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
@@ -15,7 +15,7 @@ To install & activate conda, read instructions here https://docs.conda.io/projec
 ## ACTIVATE THE CONDA ENVIRONMENT
 
 ```
-conda activate Coco_environment.yml
+conda activate environment.yml
 ```
 
 ## USAGE
