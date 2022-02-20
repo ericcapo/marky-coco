@@ -47,6 +47,7 @@ You can modify parameters for each step in the file workflow/Snakefile or workfl
 ## INPUTS
 Standards input files are
 * sample_1.fastq & sample_2.fastq
+
 You can use different types of inputs since this pipeline is based on a snakemake structure. If you want to start with files your already produced from raw fastq files, here is where you need to place yours file for the pipeline to work
 * sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
 * sample_tmp/sample_megahit/final.contigs.fa # megahit outputs
