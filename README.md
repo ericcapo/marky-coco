@@ -27,7 +27,7 @@ bash marky.sh {sample}
 ```
 
 ## WORKFLOW
-The raw fastq data are proceed with different sofwares. Feel free to modify their parameters in the file workflow/Snakefile
+The raw fastq data are proceed with different sofware. You can modify parameters in the file workflow/Snakefile
 * fastp # trim and clean the raw reads
 * megahit # de-novo assembly of cleaned reads
 * bowtie2 # mapp the cleaned reads to the de-novo assembly
