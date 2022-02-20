@@ -6,7 +6,7 @@ This software is a ready-to-use pipeline to detect and identify hgcAB genes from
 
 ```
 git clone https://github.com/ericcapo/marky-coco.git
-cd marky
+cd marky-coco
 chmod +x workflow/genesearch.sh
 source conda env create -f environment.yml
 ```
