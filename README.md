@@ -19,7 +19,7 @@ conda activate Coco_environment.yml
 ```
 
 ## USAGE
-Copy your metagenomes in the folder marky. Input files should look like that {sample}_1.fastq and {sample}_2.fastq. Only paired-end data are supported right now. If it doesn´t work, ensure that the marky.sh can be run. Do "chmod +x marky.sh". In the following line below, replace {sample} by the name of your sample.
+- Copy your metagenomes in the folder marky. Input files should look like that {sample}_1.fastq and {sample}_2.fastq. Only paired-end data are supported right now. - - Run the line below (replace {sample} by the name of your sample). If it doesn´t work, do "chmod +x marky.sh" and re-try. In the following line below, 
 
 ```
 bash marky.sh {sample}
