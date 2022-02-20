@@ -50,8 +50,8 @@ This software will produce a folder {sample}_outputs including:
 * a file bowtie2.log that is output for the bowtie2 step.
 
 ## IMPORTANT NOTES
-* <b>Not all detected hgcA gene homologs are true hgcA genes</b>. True hgcA genes are only the ones with the following amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
-* <b>Not all detected hgcB gene homologs are true hgB genes</b>. True hgcA genes are only the ones with the following amino acids motifs: CMECGA and CIEGCA
-* It is possible to identify hgcB genes found side-by-side with hgcA genes by looking at their gene_id (the second number corresponds to the contigs numbers. If similar between a hgcA and a hgcB gene, that means they are colocated on a microbial genome, the third number of the gene_id corresponds to the number of the genes on the contigs so hgcA and hgcB that would be pairs could be like : k141_6000_1 and k141_6000_2. 
-* To <b>assign NCBI txid to the corresponding taxonomy</b>, use the file "db_txid_2202220" located in the subfolder marky_db. A simple R function "merge(db, a, by="txid", all.x=F, all.y=T)" can be used to automatically generated a new column with the corresponding taxonomy. Otherwise, a manual assignment can be done if you have only few targeted genes.
-* To normalize your data, rpoB coverage values calculated from both bacteria and archael genomes can be used. To do so, sum the coverage values obtained in the files {sample}_rpoBb_final.txt and {sample}_rpoBa_final.txt and use the obtained value (the sum give you only one value) to normalize your hgcA gene coverage values.
+* <b>True hgcA genes</b> are only the ones with the following amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
+* <b>True hgcB genes</b> are only the ones with the following amino acids motifs: CMECGA and CIEGCA
+* To <b>find hgcB genes side-by-side with hgcA genes</b> in the same contig (so co-located in a microbial genome), look the 3nd number in their gene_id (= contigs id). Note that the 3rd number of the gene_id corresponds to the number of the genes on  contigs. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
+* To <b>assign NCBI txid to the corresponding taxonomy</b>, use the file "db_txid_2202220" located in the subfolder marky_db. A R function "merge(db, a, by="txid", all.x=F, all.y=T)" can be used to automatically generated a new column with the corresponding taxonomy in an output file. Otherwise, a manual assignment can be done if you have only few targeted genes.
+* To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes.
