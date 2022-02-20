@@ -24,7 +24,7 @@ cp /remote/folder/sample_2.fastq .
 ```
 conda activate coco
 ```
-* Run the marky function
+* Run the marky script
 ```
 bash marky.sh sample
 ```
