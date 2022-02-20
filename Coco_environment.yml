@@ -1,0 +1,13 @@
+name: coco
+dependencies:
+- snakemake
+- fastp
+- megahit
+- bowtie2
+- prodigal
+- samtools
+- subread
+- seqtk
+- biopython
+- hmmer
+- pplacer
