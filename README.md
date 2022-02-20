@@ -12,22 +12,24 @@ conda env create -f environment.yml
 ```
 To install conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
-## ACTIVATE CONDA ENVIRONMENT
+## BASIC USAGE
+* Copy your metagenomes (sample_1.fastq and sample_2.fastq) in the folder marky. 
+* Activate the conda environment
 ```
 conda activate coco
 ```
-To load conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
-
-## USAGE
-* Copy your metagenomes (sample_1.fastq and sample_2.fastq) in the folder marky. 
-* Run the command below
-
+* Run the marky function
 ```
 bash marky.sh sample
 ```
 
-* To run as a slurm job
-
+## SLURM USAGE
+* Copy your metagenomes (sample_1.fastq and sample_2.fastq) in the folder marky. 
+* Activate the conda environment
+```
+conda activate coco
+```
+* Run the marky_to_slurm function
 ```
 sbatch marky_to_slurm.sh sample
 ```
