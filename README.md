@@ -30,7 +30,6 @@ If it doesn´t work:
 - Only paired-end data are supported right now.
 - Input files should look like that sample_1.fastq and sample_2.fastq. 
 - Do "chmod +x marky.sh" and re-try. In the following line below,
-```
 
 ## WORKFLOW
 The raw paired-end fastq files are processed with a suite of sofware. 
