@@ -1,5 +1,5 @@
 # marky-coco
-This software is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is associated to the <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>, a hgcAB gene catalogue. This software works currently only with paired-end fastq files (sample_1.fastq and sample_2.fastq).
+This software is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is associated to the hgcAB gene catalogue <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>. This software works currently only with paired-end fastq files (sample_1.fastq and sample_2.fastq).
 
 
 ## INSTALL
@@ -11,6 +11,7 @@ chmod +x workflow/genesearch.sh
 conda env create -f environment.yml
 ```
 To install conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+
 
 ## BASIC USAGE
 * Copy your files (sample_1.fastq and sample_2.fastq) in the folder marky. Use 'gunzip' if your fastq are in fastq.gz format.
@@ -33,6 +34,7 @@ bash marky.sh sample
 sbatch marky_to_slurm.sh sample
 ```
 
+
 ## WORKFLOW
 The raw paired-end fastq files are processed with a suite of sofware. 
 * fastp # trim and clean the raw reads
@@ -43,6 +45,7 @@ The raw paired-end fastq files are processed with a suite of sofware.
 * workflow/genesearch.sh. # custom script detecting hgc gene homologs and extract their features
 You can modify parameters for each step in the file workflow/Snakefile or workflow/genesearch.sh.
 
+
 ## OUTPUTS
 This software will produce a folder {sample}_outputs including:
 * a file hgcA_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences. See <b>IMPORTANT NOTES</b> for data intepretation.
@@ -50,6 +53,7 @@ This software will produce a folder {sample}_outputs including:
 * a file rpoBb_final.txt and a file rpoBa_final.txt with: gene id, the number of reads, gene length (bp), coverage values (nb of read/bp).
 * a file fastp.html and and a file fastp.html that are outputs for the fastp step.
 * a file bowtie2.log that is output for the bowtie2 step.
+
 
 ## IMPORTANT NOTES
 * <b>True hgcA genes</b> include one of the amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
