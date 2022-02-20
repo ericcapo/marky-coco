@@ -66,5 +66,6 @@ R
 > a <- read.table("{sample}_outputs/{sample}_hgcA_final.txt", h=T)
 > b <- merge(db, a, by="txid", all.x=F, all.y=T)
 > write.table(b, file="{sample}_outputs/{sample}_hgcA_final2.txt", sep="\t", row.names=F)
+> quit()
 ```
 * To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes.
