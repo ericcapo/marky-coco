@@ -59,7 +59,7 @@ This software will produce a folder {sample}_outputs including:
 * <b>True hgcA genes</b> include one of the amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
 * <b>True hgcB genes</b> include one of the amino acids motifs: CMECGA and CIEGCA
 * To <b>find hgcB genes side-by-side with hgcA genes</b> in the same contig (so co-located in a microbial genome), look the 3nd number in their gene_id (corresponding to contigs id). Note that the 3rd number of the gene_id corresponds to the number of the genes on contigs. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
-* To <b>assign NCBI txid to the corresponding taxonomy</b>, you can use the R script below  or use the file db/db_txid_2202220 for manual assignment can be done if you have only few targeted genes.
+* To <b>assign NCBI txid to the corresponding taxonomy</b>, you can use the R script below  or do a manual assignment with db/db_txid_2202220  if you have only few  hgcA gene homologs. If the database do not include the txid you found in your sample, check the identity here https://www.ncbi.nlm.nih.gov/taxonomy/?term=txid
 ```
 R
 db <- read.table("db/db_txid_220220.txt",h=T)
