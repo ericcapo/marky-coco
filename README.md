@@ -28,13 +28,14 @@ bash marky.sh {sample}
 ```
 
 ## WORKFLOW
-The raw fastq data are proceed with different sofware. You can modify parameters in the file workflow/Snakefile
+The raw paired-end fastq files are processed with a suite of sofware. 
 * fastp # trim and clean the raw reads
 * megahit # de-novo assembly of cleaned reads
 * bowtie2 # mapp the cleaned reads to the de-novo assembly
 * prodigal # predict protein-coding genes from the de-novo assembly
 * featureCounts # count reads associated to each gene
-* workflow/genesearch.sh # custom script detecting hgc gene homologs and extract their features
+* workflow/genesearch.sh. # custom script detecting hgc gene homologs and extract their features
+You can modify parameters for each step in the file workflow/Snakefile or workflow/genesearch.sh.
 
 ## OUTPUTS
 This software will produce a folder {sample}_outputs that include outputs
