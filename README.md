@@ -12,6 +12,12 @@ source conda env create -f environment.yml
 ```
 To install conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
+## ACTIVATE CONDA ENVIRONMENT
+```
+conda activate coco
+```
+To load conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+
 ## USAGE
 - Copy your metagenomes (sample_1.fastq and sample_2.fastq) in the folder marky. 
 - Run the command below
