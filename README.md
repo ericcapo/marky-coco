@@ -4,7 +4,6 @@ This software is a ready-to-use pipeline to detect and identify hgcAB genes from
 
 ## INSTALL
 
-manually:
 ```
 git clone https://github.com/ericcapo/marky.git
 cd marky
