@@ -1,5 +1,5 @@
 # marky-coco
-This software is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is associated to the <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>, a hgcAB gene catalogue.
+This software is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is associated to the <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>, a hgcAB gene catalogue. This software works currently only with paired-end .fastq files (sample_1.fastq and sample_2.fastq).
 
 
 ## INSTALL
@@ -33,11 +33,6 @@ conda activate coco
 ```
 sbatch marky_to_slurm.sh sample
 ```
-
-* If it doesn´t work:
-- Do "chmod +x marky.sh" and re-try.
-- Only paired-end data are supported right now.
-- Input files should look like that sample_1.fastq and sample_2.fastq. 
 
 ## WORKFLOW
 The raw paired-end fastq files are processed with a suite of sofware. 
