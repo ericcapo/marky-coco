@@ -19,14 +19,21 @@ conda activate coco
 To load conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 ## USAGE
-- Copy your metagenomes (sample_1.fastq and sample_2.fastq) in the folder marky. 
-- Run the command below
+* Copy your metagenomes (sample_1.fastq and sample_2.fastq) in the folder marky. 
+* Run the command below
 
 ```
 bash marky.sh sample
 ```
 
-If it doesn´t work:
+* To run as a slurm job
+
+```
+sbatch marky_to_slurm.sh sample
+
+```
+
+* If it doesn´t work:
 - Do "chmod +x marky.sh" and re-try.
 - Only paired-end data are supported right now.
 - Input files should look like that sample_1.fastq and sample_2.fastq. 
