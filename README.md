@@ -50,7 +50,7 @@ You can modify parameters for each step in the file workflow/Snakefile or workfl
 This software will produce a folder {sample}_outputs including:
 * a file hgcA_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences. See <b>IMPORTANT NOTES</b> for data intepretation.
 * a file hgcB_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp) and the amino acid sequences. 
-* a file rpoBb_final.txt and a file rpoBa_final.txt with: gene id, the number of reads, gene length (bp), coverage values (nb of read/bp).
+* a file rpoBb_final.txt (bacterial rpoB genes) and a file rpoBa_final.txt (archaeal rpoB genes) including coverage values (nb of read/bp).
 * a file fastp.html and and a file fastp.html that are outputs for the fastp step.
 * a file bowtie2.log that is output for the bowtie2 step.
 
