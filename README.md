@@ -36,7 +36,7 @@ sbatch marky_to_slurm.sh sample
 
 
 ## ADVANCED USAGE
-Standards input files are paired-end fastq files (sample_1.fastq & sample_2.fastq). Alternately, intermediate files can be used with marky.sh because the pipeline in based on a snakemake structure. To work, you need to be placed in the sample_tmp folder as following:
+Standards input files are paired-end fastq files (sample_1.fastq & sample_2.fastq). Alternately, intermediate files can be used with marky.sh because the pipeline in based on a snakemake structure. To work, you need to put your files in the sample_tmp folder as following:
 * sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
 * sample_tmp/sample_megahit/final.contigs.fa # megahit outputs
 * sample_tmp/sample.bam # bowtie2 outputs
@@ -55,6 +55,7 @@ This software will produce a folder {sample}_outputs including:
 
 ## IMPORTANT NOTES
 * You can modify the parameters for each step of the software in the file workflow/Snakefile and/or workflow/genesearch.sh.
+* You can use all intermediate files produced in the sample_tmp folder to perform other type of analysis. See the method section below to see what they are.
 * <b>True hgcA genes</b> include one of the amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
 * <b>True hgcB genes</b> include one of the amino acids motifs: CMECGA and CIEGCA
 * To <b>find hgcB genes side-by-side with hgcA genes</b> in the same contig (so co-located in a microbial genome), look the 3nd number in their gene_id (corresponding to contigs id). Note that the 3rd number of the gene_id corresponds to the number of the genes on contigs. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
