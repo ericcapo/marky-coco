@@ -8,7 +8,6 @@ Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from ra
 ```
 git clone https://github.com/ericcapo/marky-coco.git
 cd marky-coco
-chmod +x workflow/genesearch.sh
 conda env create -f environment.yml
 ```
 To install conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
