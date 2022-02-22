@@ -1,4 +1,7 @@
 name: coco
+channels:
+- defaults
+- bioconda
 dependencies:
 - snakemake
 - fastp
