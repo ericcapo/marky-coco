@@ -28,6 +28,13 @@ conda activate coco
 bash marky.sh sample
 ```
 
+Test files can be find here https://figshare.com/articles/online_resource/Test_files_for_marky-coco_pipeline/19221213
+```
+wget https://figshare.com/ndownloader/articles/19221213/versions/1
+unzip 1
+bash marky.sh MG01
+```
+
 ## SLURM USAGE
 * Run the marky_to_slurm file. You can modify the requested amount of time in the file.
 ```
