@@ -28,6 +28,8 @@ conda activate coco
 bash marky.sh sample
 ```
 
+You can give a try with test files using "bash marky.sh MG01"
+
 ## SLURM USAGE
 * Run the marky_to_slurm file. You can modify the requested amount of time in the file.
 ```
