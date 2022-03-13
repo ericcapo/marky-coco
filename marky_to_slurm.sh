@@ -2,6 +2,7 @@
 #SBATCH -A snic2021-5-53				
 #SBATCH -n 12				
 #SBATCH --time=10:00:00	
+chmod +x workflow/genesearch.sh
 
 sample="$1"
 
