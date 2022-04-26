@@ -1,6 +1,5 @@
 # marky-coco
-Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is paired to the hgcAB gene catalogue <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>. The raw paired-end fastq files are processed with a suite of sofware: fastp to trim and clean the raw reads, megahit for de-novo assembly, bowtie2 to map the cleaned reads to the de-novo assembly, prodigal to predict protein-coding genes, featureCounts to count the number of reads associated to each gene. Finally workflow/genesearch.sh is a    custom bash script allowing to detect hgc gene homologs and extract their features (coverage values, taxonomy, amino acid sequences).  
-
+Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is paired to the hgcAB gene catalogue <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>. The raw paired-end fastq files are processed with a suite of sofware: fastp to trim and clean the raw reads, megahit for de-novo assembly, bowtie2 to map the cleaned reads to the de-novo assembly, prodigal to predict protein-coding genes, featureCounts to count the number of reads associated to each gene. Finally workflow/genesearch.sh is a    custom bash script allowing to detect hgc gene homologs and extract their features (coverage values, taxonomy, amino acid sequences).  In the current version of marky-coco, the script is also providing outputs with detected merA and merB gene homologs (but with no tips for manual inspection and taxonomic identification).
 
 
 ## INSTALL
@@ -55,6 +54,8 @@ Standards input files are paired-end fastq files (sample_1.fastq & sample_2.fast
 This software will produce a folder {sample}_outputs including:
 * a file hgcA_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences. See <b>IMPORTANT NOTES</b> for data intepretation.
 * a file hgcB_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp) and the amino acid sequences. 
+* a file merA_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences. See <b>IMPORTANT NOTES</b> for data intepretation.
+* a file merB_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp) and the amino acid sequences. 
 * a file rpoBb_final.txt (bacterial rpoB genes) and a file rpoBa_final.txt (archaeal rpoB genes) including coverage values (nb of read/bp).
 * a file fastp.html and and a file fastp.html that are outputs for the fastp step.
 * a file bowtie2.log that is output for the bowtie2 step.
@@ -66,6 +67,7 @@ This software will produce a folder {sample}_outputs including:
 * <b>True hgcA genes</b> include one of the amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
 * <b>True hgcB genes</b> include one of the amino acids motifs: CMECGA and CIEGCA
 * To <b>find hgcB genes side-by-side with hgcA genes</b> in the same contig (so co-located in a microbial genome), look the 3nd number in their gene_id (corresponding to contigs id). Note that the 3rd number of the gene_id corresponds to the number of the genes on contigs. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
+* * <b>merA and merB gene´s</b> homologs are detected in this pipeline using HMM profiles creating from the amazing database from Christakis et al. (2021). This allow only to screen roughly your metagenome and maybe detect and count merA and merB homologs. Manual inspection (following Christakis, Barkay and Boy 2021 paper) is required to fully identify "true" merA and "true" merB genes but not described (yet) here. DO NOT USE these output table saying you detect merA and merB genes because it will be clearly wrong.
 * To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes.
 * To <b>assign NCBI txid to the corresponding taxonomy</b>, you can use the R script below  or do a manual assignment with db/db_txid_2202220  if you have only few  hgcA gene homologs. If the database do not include the txid you found in your sample, check the identity here https://www.ncbi.nlm.nih.gov/taxonomy/
 ```
