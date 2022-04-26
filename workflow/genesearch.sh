@@ -40,6 +40,24 @@ paste ${sample}_tmp/${sample}_hgcB_counts.txt ${sample}_tmp/${sample}_hgcB_seq.t
 awk '{print $1,$2,$3,$4,$6,$7}' ${sample}_tmp/${sample}_hgcB_almost.txt > ${sample}_tmp/${sample}_hgcB_almost2.txt
 echo -e "gene_id length read cov sequence gene_type" | cat - ${sample}_tmp/${sample}_hgcB_almost2.txt > ${sample}_outputs/${sample}_hgcB_final.txt
 
+hmmsearch -o ${sample}_tmp/${sample}_merA.txt --tblout ${sample}_outputs/${sample}_merA_hmmer.out db/merAB_Christakis2021/211026_Christakis_reduced_merA_msa.hmm ${sample}_tmp/${sample}_proteins.faa
+grep -v '^#' ${sample}_outputs/${sample}_merA_hmmer.out | awk {'{print $1}'} | sort > ${sample}_tmp/${sample}_merA_geneid.txt
+seqtk subseq ${sample}_tmp/${sample}_proteins.faa ${sample}_tmp/${sample}_merA_geneid.txt | awk {'{gsub(/*$/,""); print}'} > ${sample}_tmp/${sample}_merA_proteins.faa
+awk '/^>/ {{printf("%s%s\t",(N>0?"\n":""),$0);N++;next;}} {{printf("%s",$0);}} END {{printf("\n");}}' < ${sample}_tmp/${sample}_merA_proteins.faa  |sort > ${sample}_tmp/${sample}_merA_proteins2.faa 
+sed 's/>//' ${sample}_tmp/${sample}_merA_proteins2.faa > ${sample}_tmp/${sample}_merA_proteins3.faa
+awk {'{print $1, $10}'} ${sample}_tmp/${sample}_merA_proteins3.faa > ${sample}_tmp/${sample}_merA_seq.txt
+grep -f ${sample}_tmp/${sample}_merA_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_merA_counts.txt
+paste ${sample}_tmp/${sample}_merA_counts.txt ${sample}_tmp/${sample}_merA_seq.txt | sed 's/$/ merA_hom/'  > ${sample}_outputs/${sample}_merA_homologs.txt
+
+hmmsearch -o ${sample}_tmp/${sample}_merB.txt --tblout ${sample}_outputs/${sample}_merB_hmmer.out db/merAB_Christakis2021/211026_Christakis_reduced_merB_msa.hmm ${sample}_tmp/${sample}_proteins.faa
+grep -v '^#' ${sample}_outputs/${sample}_merB_hmmer.out | awk {'{print $1}'} | sort > ${sample}_tmp/${sample}_merB_geneid.txt
+seqtk subseq ${sample}_tmp/${sample}_proteins.faa ${sample}_tmp/${sample}_merB_geneid.txt | awk {'{gsub(/*$/,""); print}'} > ${sample}_tmp/${sample}_merB_proteins.faa
+awk '/^>/ {{printf("%s%s\t",(N>0?"\n":""),$0);N++;next;}} {{printf("%s",$0);}} END {{printf("\n");}}' < ${sample}_tmp/${sample}_merB_proteins.faa  |sort > ${sample}_tmp/${sample}_merB_proteins2.faa 
+sed 's/>//' ${sample}_tmp/${sample}_merB_proteins2.faa > ${sample}_tmp/${sample}_merB_proteins3.faa
+awk {'{print $1, $10}'} ${sample}_tmp/${sample}_merB_proteins3.faa > ${sample}_tmp/${sample}_merB_seq.txt
+grep -f ${sample}_tmp/${sample}_merB_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_merB_counts.txt
+paste ${sample}_tmp/${sample}_merB_counts.txt ${sample}_tmp/${sample}_merB_seq.txt | sed 's/$/ merB_hom/'  > ${sample}_outputs/${sample}_merB_homologs.txt
+
 hmmsearch --cut_tc db/rpoB/TIGR02013.hmm ${sample}_tmp/${sample}_proteins.faa > ${sample}_tmp/${sample}_rpoBb.txt
 sed -n -e '18,/Domain/p' ${sample}_tmp/${sample}_rpoBb.txt | head -n -3  | sed 's/ \+/|/g' | cut -f10 -d"|" > ${sample}_tmp/${sample}_rpoBb2.txt
 grep -f ${sample}_tmp/${sample}_rpoBb2.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_rpoBb3.txt
