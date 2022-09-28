@@ -1,7 +1,7 @@
 rule fastp:
 	input:
 		r1="{sample}_1.fastq",
-		r2="{sample}_1.fastq",
+		r2="{sample}_2.fastq",
 	output:
 		out1="{sample}_tmp/{sample}_P1.fastq",
 		out2="{sample}_tmp/{sample}_P2.fastq",
