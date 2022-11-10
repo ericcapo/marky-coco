@@ -65,7 +65,7 @@ This software will produce a folder {sample}_outputs including:
 * You can modify the parameters for each step of the software in the file workflow/Snakefile and/or workflow/genesearch.sh.
 * You can use all intermediate files produced in the sample_tmp folder to perform other type of analysis. See the method section below to see what they are.
 * <b>True hgcA genes</b> include one of the amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
-* <b>True hgcB genes</b> include one of the amino acids motifs: CMECGA and CIEGCA
+* <b>True hgcB genes</b> include one of the amino acids motifs: CMECGA and CIECGA
 * To <b>find hgcB genes side-by-side with hgcA genes</b> in the same contig (so co-located in a microbial genome), look the 3nd number in their gene_id (corresponding to contigs id). Note that the 3rd number of the gene_id corresponds to the number of the genes on contigs. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
 * <b>merA and merB gene´s</b> homologs are detected in this pipeline using HMM profiles creating from the amazing database from Christakis et al. (2021). This allow only to screen roughly your metagenome and maybe detect and count merA and merB homologs. Manual inspection (following Christakis, Barkay and Boyd 2021 paper) is required to fully identify "true" merA and "true" merB genes but not described (yet) here. DO NOT USE these output table saying you detect merA and merB genes because it will be clearly wrong.
 * To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes.
