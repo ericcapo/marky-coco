@@ -13,11 +13,24 @@ To install conda, read instructions here https://docs.conda.io/projects/conda/en
 
 
 ## BASIC USAGE WITH PAIRED END METAGENOMES
-* Copy your paired-end fastq files (sample_1.fastq and sample_2.fastq) or single-end fastq file (sample.fastq) in the folder marky-coco. Use 'gunzip' if your fastq are in fastq.gz format.
+* Copy your paired-end fastq files (sample_1.fastq and sample_2.fastq) in the folder marky-coco. Use 'gunzip' if your fastq are in fastq.gz format.
 ```
 cp /remote/folder/sample_1.fastq .
 cp /remote/folder/sample_2.fastq .
 
+```
+* Activate the conda environment
+```
+conda activate coco
+```
+* Run the marky script
+```
+bash marky.sh sample
+```
+
+## BASIC USAGE WITH SINGLE END METAGENOMES
+* Copy your single-end fastq file (sample.fastq) in the folder marky-coco. Use 'gunzip' if your fastq are in fastq.gz format.
+```
 cp /remote/folder/sample.fastq .
 ```
 * Activate the conda environment
@@ -29,6 +42,7 @@ conda activate coco
 bash marky.sh sample
 ```
 
+## GIVE A TRY WITH TEST METAGENOMES
 Test files (MG01_1.fastq, MG01_2.fastq, MG02.fastq are available here https://figshare.com/articles/online_resource/Test_files_for_marky-coco_pipeline/19221213)
 ```
 wget https://figshare.com/ndownloader/articles/19221213/versions/1
@@ -50,7 +64,6 @@ sbatch marky_se_to_slurm.sh samples # for single-end metagenomes
 
 ```
 
-
 ## ADVANCED USAGE
 Standards input files are paired-end fastq files (sample_1.fastq & sample_2.fastq). Alternately, intermediate files can be used with marky.sh because the pipeline in based on a snakemake structure. To work, you need to put your files in the sample_tmp folder as following:
 * sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
@@ -58,7 +71,6 @@ Standards input files are paired-end fastq files (sample_1.fastq & sample_2.fast
 * sample_tmp/sample.bam # bowtie2 outputs
 * sample_tmp/sample_proteins.faa # prodigal (or prokka) outputs
 * sample_tmp/sample_counts.tsv # featureCounts outputs
-
 
 ## OUTPUTS
 This software will produce a folder {sample}_outputs including:
