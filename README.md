@@ -17,7 +17,6 @@ To install conda, read instructions here https://docs.conda.io/projects/conda/en
 ```
 cp /remote/folder/sample_1.fastq .
 cp /remote/folder/sample_2.fastq .
-
 ```
 * Activate the conda environment
 ```
@@ -25,7 +24,7 @@ conda activate coco
 ```
 * Run the marky script
 ```
-bash marky.sh sample
+bash marky_pe.sh sample
 ```
 
 ## BASIC USAGE WITH SINGLE END METAGENOMES
@@ -39,7 +38,7 @@ conda activate coco
 ```
 * Run the marky script
 ```
-bash marky.sh sample
+bash marky_se.sh sample
 ```
 
 ## GIVE A TRY WITH TEST METAGENOMES
