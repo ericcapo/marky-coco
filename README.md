@@ -46,21 +46,25 @@ Test files (MG01_1.fastq, MG01_2.fastq, MG02.fastq are available here https://fi
 ```
 wget https://figshare.com/ndownloader/articles/19221213/versions/2
 unzip 2
+```
 * Run the marky script for paired-end test metagenome
+```
 bash marky.sh MG01
+```
 * Run the marky script for single-end test metagenome
+```
 bash marky.sh MG02
-
 ```
 
 ## SLURM USAGE
 * Run the marky_to_slurm file. You can modify the requested amount of time in the file.
-```
 * For paired-end metagenomes
+```
 sbatch marky_pe_to_slurm.sh sample  # for paired-end metagenomes
+```
 * For single-end metagenomes
+```
 sbatch marky_se_to_slurm.sh samples # for single-end metagenomes
-
 ```
 
 ## ADVANCED USAGE
