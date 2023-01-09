@@ -20,6 +20,7 @@ cp /remote/folder/sample_2.fastq .
 ```
 * Activate the conda environment
 ```
+source conda_init.sh # maybe not necessary but me I need to do it
 conda activate coco
 ```
 * Run the marky script
