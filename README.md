@@ -12,11 +12,13 @@ conda env create -f environment.yml
 To install conda, read instructions here https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 
-## BASIC USAGE
-* Copy your files (sample_1.fastq and sample_2.fastq) in the folder marky-coco. Use 'gunzip' if your fastq are in fastq.gz format.
+## BASIC USAGE WITH PAIRED END METAGENOMES
+* Copy your paired-end fastq files (sample_1.fastq and sample_2.fastq) or single-end fastq file (sample.fastq) in the folder marky-coco. Use 'gunzip' if your fastq are in fastq.gz format.
 ```
 cp /remote/folder/sample_1.fastq .
 cp /remote/folder/sample_2.fastq .
+
+cp /remote/folder/sample.fastq .
 ```
 * Activate the conda environment
 ```
@@ -27,17 +29,25 @@ conda activate coco
 bash marky.sh sample
 ```
 
-Test files are here https://figshare.com/articles/online_resource/Test_files_for_marky-coco_pipeline/19221213
+Test files (MG01_1.fastq, MG01_2.fastq, MG02.fastq are available here https://figshare.com/articles/online_resource/Test_files_for_marky-coco_pipeline/19221213)
 ```
 wget https://figshare.com/ndownloader/articles/19221213/versions/1
 unzip 1
+* Run the marky script for paired-end test metagenome
 bash marky.sh MG01
+* Run the marky script for single-end test metagenome
+bash marky.sh MG02
+
 ```
 
 ## SLURM USAGE
 * Run the marky_to_slurm file. You can modify the requested amount of time in the file.
 ```
-sbatch marky_to_slurm.sh sample
+* For paired-end metagenomes
+sbatch marky_pe_to_slurm.sh sample  # for paired-end metagenomes
+* For single-end metagenomes
+sbatch marky_se_to_slurm.sh samples # for single-end metagenomes
+
 ```
 
 
