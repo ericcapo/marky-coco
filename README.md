@@ -60,11 +60,11 @@ bash marky.sh MG02
 * Run the marky_to_slurm file. You can modify the requested amount of time in the file.
 * For paired-end metagenomes
 ```
-sbatch marky_pe_to_slurm.sh sample  # for paired-end metagenomes
+sbatch marky_pe_to_slurm.sh sample
 ```
 * For single-end metagenomes
 ```
-sbatch marky_se_to_slurm.sh samples # for single-end metagenomes
+sbatch marky_se_to_slurm.sh sample
 ```
 
 ## ADVANCED USAGE
