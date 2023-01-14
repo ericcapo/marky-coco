@@ -1,6 +1,8 @@
 # marky-coco
 Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end and single end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is paired to the hgcAB gene catalogue <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>. The metagenomes are processed with a suite of sofware: fastp to trim and clean the raw reads, megahit for de-novo assembly, bowtie2 to map the cleaned reads to the de-novo assembly, prodigal to predict protein-coding genes, featureCounts to count the number of reads associated to each gene. Finally workflow/genesearch.sh is a custom bash script allowing to detect hgc gene homologs and extract their features (coverage values, taxonomy, amino acid sequences).  In the current version of marky-coco, the script is also providing outputs with detected merA and merB gene homologs (but with no tips yet for manual inspection and taxonomic identification).
 
+A step-by-step tutorial is included for a better understanding of how hgcA genes are detected and identified from raw paired-end metagenomes. See 
+marky-coco_step-by-step_tutorial_hgcA
 
 ## INSTALL
 
