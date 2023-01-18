@@ -5,7 +5,8 @@ Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from ra
 This software and insights into data analysis and interpretation are presented in the paper "A consensus protocol for the recovery of mercury methylation genes from metagenomes" <i>Molecular Ecology Resources</i> <a href="https://doi.org/10.1111/1755-0998.13687" target="_blank"><u>doi: 10.1111/1755-0998.13687</u></a>
 
 ![Marky-coco_workflow](https://user-images.githubusercontent.com/10795529/213127826-77844383-3a59-41b3-80f6-b7e3ab6b2ae9.png)
-<p>
+</p>
+
 ## INSTALL
 
 ```
