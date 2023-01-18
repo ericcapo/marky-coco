@@ -50,11 +50,11 @@ unzip 2
 ```
 * Run the marky script for paired-end test metagenome
 ```
-bash marky.sh MG01
+bash marky_pe.sh MG01
 ```
 * Run the marky script for single-end test metagenome
 ```
-bash marky.sh MG02
+bash marky_se.sh MG02
 ```
 
 ## SLURM USAGE
