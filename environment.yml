@@ -5,13 +5,13 @@ channels:
 - bioconda
 dependencies:
 - snakemake
-- fastp
-- megahit
-- bowtie2
-- prodigal
-- samtools
-- subread
-- seqtk
-- biopython
-- hmmer
-- pplacer
+- fastp ==0.20.0
+- megahit ==1.1.2
+- bowtie2 ==2.4.5
+- prodigal ==2.6.3
+- samtools ==1.9
+- subread ==1.5.2
+- seqtk ==1.2-r101
+- biopython ==1.80-py3-10.8
+- hmmer ==3.2.1
+- pplacer ==1.1.alpha19
