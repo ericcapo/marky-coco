@@ -2,7 +2,7 @@
 <p align="justify">
 Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from raw paired-end and single end fastq files. This pipeline is a collaborative project from researchers of the <a href="https://ercapo.wixsite.com/meta-hg" target="_blank"><b>Meta-Hg working group</b></a> and is paired to the hgcAB gene catalogue <a href="https://smithsonian.figshare.com/articles/dataset/Hg-MATE-Db_v1_01142021/13105370/1?file=26193689" target="_blank"><b>Hg-MATE database</b></a>. The metagenomes are processed with a suite of sofware: fastp to trim and clean the raw reads, megahit for de-novo assembly, bowtie2 to map the cleaned reads to the de-novo assembly, prodigal to predict protein-coding genes, featureCounts to count the number of reads associated to each gene. Finally workflow/genesearch.sh is a custom bash script allowing to detect hgc gene homologs and extract their features (coverage values, taxonomy, amino acid sequences).  In the current version of marky-coco, the script is also providing outputs with detected merA and merB gene homologs (but with no tips yet for manual inspection and taxonomic identification). A step-by-step tutorial is included for a better understanding of how hgcA genes are detected and identified from raw paired-end metagenomes -> See marky-coco_step-by-step_tutorial_hgcA.html. 
 
-This software and insights into data analysis and interpretation are presented in the paper "A consensus protocol for the recovery of mercury methylation genes from metagenomes" <i>Molecular Ecology Resources</i> <a href="https://doi.org/10.1111/1755-0998.13687" target="_blank"><u>doi: 10.1111/1755-0998.13687</u></a>
+
 
 ![Marky-coco_workflow](https://user-images.githubusercontent.com/10795529/213127826-77844383-3a59-41b3-80f6-b7e3ab6b2ae9.png)
 </p>
@@ -18,7 +18,7 @@ To install conda, read instructions here https://docs.conda.io/projects/conda/en
 
 
 ## BASIC USAGE WITH PAIRED END METAGENOMES
-* Copy your paired-end fastq files (sample_1.fastq and sample_2.fastq) in the folder marky-coco. Use 'gunzip' if your fastq are in fastq.gz format.
+* Copy your fastq files (sample_1.fastq and sample_2.fastq) in the folder marky-coco.
 ```
 cp /remote/folder/sample_1.fastq .
 cp /remote/folder/sample_2.fastq .
@@ -33,7 +33,7 @@ bash marky_pe.sh sample
 ```
 
 ## BASIC USAGE WITH SINGLE END METAGENOMES
-* Copy your single-end fastq file (sample.fastq) in the folder marky-coco. Use 'gunzip' if your fastq are in fastq.gz format.
+* Copy yourfastq file (sample.fastq) in the folder marky-coco. 
 ```
 cp /remote/folder/sample.fastq .
 ```
@@ -46,24 +46,24 @@ conda activate coco
 bash marky_se.sh sample
 ```
 
-## GIVE A TRY WITH TEST METAGENOMES
-Test files (MG01_1.fastq, MG01_2.fastq, MG02.fastq are available here https://figshare.com/articles/online_resource/Test_files_for_marky-coco_pipeline/19221213)
+## RUN MARKY-COCO WITH TEST METAGENOMES
+Download test files MG01 (paired-end fastq files) and MG02 (single-end fastq file)
 ```
 wget https://figshare.com/ndownloader/articles/19221213/versions/2
 unzip 2
 ```
-* Run the marky script for paired-end test metagenome
+* Run the marky script for the test paired-end metagenome MG01
 ```
 bash marky_pe.sh MG01
 ```
-* Run the marky script for single-end test metagenome
+* Run the marky script for the test single-end metagenome MG02
 ```
 bash marky_se.sh MG02
 ```
 
 ## SLURM USAGE
 <p align="justify">
-Run the marky_to_slurm file after modifying first lines depending on your computer/servor. See how slurm work here https://blog.ronin.cloud/slurm-intro/
+Run the marky_to_slurm file. See how slurm work on your computer/servor here https://blog.ronin.cloud/slurm-intro/
 </p>
 * For paired-end metagenomes
 ```
@@ -74,7 +74,7 @@ sbatch marky_pe_to_slurm.sh sample
 sbatch marky_se_to_slurm.sh sample
 ```
 
-## ADVANCED USAGE
+## ADVANCED USAGE WITH INTERMEDIATE FILES
 <p align="justify">
 Standards input files are fastq files but intermediate files can be used because the pipeline in based on a snakemake structure. For marky-coco to work this way, you would need to put your files in the sample_tmp folder as following:
 * sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
@@ -86,25 +86,25 @@ Standards input files are fastq files but intermediate files can be used because
 
 ## OUTPUTS
 <p align="justify">
-This software will produce a folder {sample}_outputs including:
-* a file hgcA_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences. See <b>IMPORTANT NOTES</b> for data intepretation.
-* a file hgcB_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp) and the amino acid sequences. 
-* a file merA_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and the amino acid sequences.
-* a file merB_final.txt with: the gene id, the number of reads, gene length (bp), coverage values (nb of read/bp) and the amino acid sequences. 
-* a file rpoBb_final.txt (bacterial rpoB genes) and a file rpoBa_final.txt (archaeal rpoB genes) including coverage values (nb of read/bp).
-* a file fastp.html and and a file fastp.html that are outputs for the fastp step.
-* a file bowtie2.log that is output for the bowtie2 step.
+* hgcA_final.txt with columns: gene id, number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and amino acid sequences. 
+* hgcB_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences.  
+* merA_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
+* merB_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
+* rpoBb_final.txt (bacterial rpoB genes) with coverage values (nb of read/bp).
+* rpoBa_final.txt (archaeal rpoB genes) with coverage values (nb of read/bp).
+* fastp.html with metrics about the cleaning.
+* fastp.json with metrics about the cleaning.
+* bowtie2.log with metrics about the read mapping.
 </p>
 
-## IMPORTANT NOTES
+## IMPORTANT NOTES FOR DATA INTERPRETATION
 <p align="justify">
-* You can modify the parameters for each step of the software in the file workflow/Snakefile and/or workflow/genesearch.sh.
-* You can use all intermediate files produced in the sample_tmp folder to perform other type of analysis. See the method section below to see what they are.
-* <b>True hgcA genes</b> include one of the amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
-* <b>True hgcB genes</b> include one of the amino acids motifs: CMECGA and CIECGA
-* To <b>find hgcB genes side-by-side with hgcA genes</b> in the same contig (so co-located in a microbial genome), look the 3nd number in their gene_id (corresponding to contigs id). Note that the 3rd number of the gene_id corresponds to the number of the genes on contigs. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
-* <b>merA and merB gene´s</b> homologs are detected in this pipeline using HMM profiles creating from the amazing database from Christakis et al. (2021). This allow only to screen roughly your metagenome and maybe detect and count merA and merB homologs. Manual inspection (following Christakis, Barkay and Boyd 2021 paper) is required to fully identify "true" merA and "true" merB genes but not described (yet) here. DO NOT USE these output table saying you detect merA and merB genes because it will be clearly wrong.
-* To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes.
+This software and insights into data interpretation are presented in the paper "A consensus protocol for the recovery of mercury methylation genes from metagenomes" <i>Molecular Ecology Resources</i> <a href="https://doi.org/10.1111/1755-0998.13687" target="_blank"><u>doi: 10.1111/1755-0998.13687</u></a>.  
+* <b>True hgcA genes</b> are those with amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
+* <b>True hgcB genes</b> are those with the amino acids motifs: CMECGA and CIECGA + colocated with true hgcA genes.
+* To detected <b>co-located hgcB genes</b>, examine gene_ids. Ex k141_6000_1 and k141_6000_2 would be co-located genes.
+* <b>merA and merB gene´s</b> homologs are detected in this pipeline using HMM profiles created from the amazing database of Christakis, Boyd and Barkay et al. (2021) <a href="https://doi.org/10.3389/fmicb.2021.682605" target="_blank"><u>doi: 10.3389/fmicb.2021.682605</u></a>. Manual inspection of each homolog is required to identify "true" merA and "true" merB genes but tjhe strategy is not described (yet) here. DO NOT USE this output saying you detect merA and merB genes because it will be clearly wrong.
+* To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes. Read Capo et al. 2023 MER for other strategies.
 * To <b>assign NCBI txid to the corresponding taxonomy</b>, you can use the R script below  or do a manual assignment with db/db_txid_2202220  if you have only few  hgcA gene homologs. If the database do not include the txid you found in your sample, check the identity here https://www.ncbi.nlm.nih.gov/taxonomy/
 </p>
 ```
