@@ -16,7 +16,7 @@ seqtk subseq ${sample}_tmp/${sample}_proteins.faa ${sample}_tmp/${sample}_hgcA_g
 awk '/^>/ {{printf("%s%s\t",(N>0?"\n":""),$0);N++;next;}} {{printf("%s",$0);}} END {{printf("\n");}}' < ${sample}_tmp/${sample}_hgcA_proteins.faa  |sort > ${sample}_tmp/${sample}_hgcA_proteins2.faa 
 sed 's/>//' ${sample}_tmp/${sample}_hgcA_proteins2.faa > ${sample}_tmp/${sample}_hgcA_proteins3.faa
 awk {'{print $1, $10}'} ${sample}_tmp/${sample}_hgcA_proteins3.faa > ${sample}_tmp/${sample}_hgcA_seq.txt
-grep -f ${sample}_tmp/${sample}_hgcA_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_hgcA_counts.txt
+grep -w -f ${sample}_tmp/${sample}_hgcA_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_hgcA_counts.txt
 hmmalign -o ${sample}_tmp/${sample}_hgcA_proteins.sto --mapali db/Hg-MATE-Db.v1/Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.refpkg/Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.stockholm db/Hg-MATE-Db.v1/Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.refpkg/Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.hmm ${sample}_tmp/${sample}_hgcA_proteins.faa
 pplacer --keep-at-most 1 --max-pend 1 -p -c db/Hg-MATE-Db.v1/Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.refpkg ${sample}_tmp/${sample}_hgcA_proteins.sto -o ${sample}_tmp/${sample}_hgcA_proteins.jplace
 rppr prep_db --sqlite ${sample}_tmp/${sample}_hgcA_classify_output -c db/Hg-MATE-Db.v1/Hg-MATE-Db.v1.ISOCELMAG_HgcA_full.refpkg
@@ -27,7 +27,7 @@ sed -e '1,1d' ${sample}_tmp/${sample}_hgcA_classifications.csv > ${sample}_tmp/$
 awk -vFPAT='([^,]*)|({"[^"]+"})' '{print $2, $11}' ${sample}_tmp/${sample}_hgcA_txid.txt  | sort > ${sample}_tmp/${sample}_hgcA_txid2.txt
 paste ${sample}_tmp/${sample}_hgcA_counts.txt ${sample}_tmp/${sample}_hgcA_txid2.txt ${sample}_tmp/${sample}_hgcA_seq.txt | sed 's/$/ hgcA_hom/'  > ${sample}_tmp/${sample}_hgcA_almost.txt
 awk {'{print $1,$2,$3,$4,$6,$8,$9}'} ${sample}_tmp/${sample}_hgcA_almost.txt > ${sample}_tmp/${sample}_hgcA_almost2.txt
-echo -e 'gene_id length read cov txid sequence gene_type' | cat - ${sample}_tmp/${sample}_hgcA_almost2.txt > ${output}
+echo 'gene_id length read cov txid sequence gene_type' | cat - ${sample}_tmp/${sample}_hgcA_almost2.txt > ${output}
 
 hmmsearch -o ${sample}_tmp/${sample}_hgcB.txt --tblout ${sample}_outputs/${sample}_hgcB_hmmer.out db/Hg-MATE-Db.v1/Hg-MATE-Db.v1.01142021_ISOCELMAG_HgcB.hmm ${sample}_tmp/${sample}_proteins.faa
 grep -v '^#' ${sample}_outputs/${sample}_hgcB_hmmer.out | awk '{print $1}' | sort > ${sample}_tmp/${sample}_hgcB_geneid.txt
@@ -35,10 +35,10 @@ seqtk subseq ${sample}_tmp/${sample}_proteins.faa ${sample}_tmp/${sample}_hgcB_g
 awk '/^>/ {printf("%s%s\t",(N>0?"\n":""),$0);N++;next;} {printf("%s",$0);} END {printf("\n");}' < ${sample}_tmp/${sample}_hgcB_proteins.faa  |sort > ${sample}_tmp/${sample}_hgcB_proteins2.faa 
 sed 's/>//' ${sample}_tmp/${sample}_hgcB_proteins2.faa > ${sample}_tmp/${sample}_hgcB_proteins3.faa
 awk '{print $1, $10}' ${sample}_tmp/${sample}_hgcB_proteins3.faa > ${sample}_tmp/${sample}_hgcB_seq.txt
-grep -f ${sample}_tmp/${sample}_hgcB_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_hgcB_counts.txt
+grep -w -f ${sample}_tmp/${sample}_hgcB_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_hgcB_counts.txt
 paste ${sample}_tmp/${sample}_hgcB_counts.txt ${sample}_tmp/${sample}_hgcB_seq.txt | sed 's/$/ hgcB_hom/'  > ${sample}_tmp/${sample}_hgcB_almost.txt
 awk '{print $1,$2,$3,$4,$6,$7}' ${sample}_tmp/${sample}_hgcB_almost.txt > ${sample}_tmp/${sample}_hgcB_almost2.txt
-echo -e "gene_id length read cov sequence gene_type" | cat - ${sample}_tmp/${sample}_hgcB_almost2.txt > ${sample}_outputs/${sample}_hgcB_final.txt
+echo "gene_id length read cov sequence gene_type" | cat - ${sample}_tmp/${sample}_hgcB_almost2.txt > ${sample}_outputs/${sample}_hgcB_final.txt
 
 hmmsearch -o ${sample}_tmp/${sample}_merA.txt --tblout ${sample}_outputs/${sample}_merA_hmmer.out db/merAB_Christakis2021/211026_Christakis_reduced_merA_msa.hmm ${sample}_tmp/${sample}_proteins.faa
 grep -v '^#' ${sample}_outputs/${sample}_merA_hmmer.out | awk {'{print $1}'} | sort > ${sample}_tmp/${sample}_merA_geneid.txt
@@ -46,7 +46,7 @@ seqtk subseq ${sample}_tmp/${sample}_proteins.faa ${sample}_tmp/${sample}_merA_g
 awk '/^>/ {{printf("%s%s\t",(N>0?"\n":""),$0);N++;next;}} {{printf("%s",$0);}} END {{printf("\n");}}' < ${sample}_tmp/${sample}_merA_proteins.faa  |sort > ${sample}_tmp/${sample}_merA_proteins2.faa 
 sed 's/>//' ${sample}_tmp/${sample}_merA_proteins2.faa > ${sample}_tmp/${sample}_merA_proteins3.faa
 awk {'{print $1, $10}'} ${sample}_tmp/${sample}_merA_proteins3.faa > ${sample}_tmp/${sample}_merA_seq.txt
-grep -f ${sample}_tmp/${sample}_merA_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_merA_counts.txt
+grep -w -f ${sample}_tmp/${sample}_merA_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_merA_counts.txt
 paste ${sample}_tmp/${sample}_merA_counts.txt ${sample}_tmp/${sample}_merA_seq.txt | sed 's/$/ merA_hom/'  > ${sample}_outputs/${sample}_merA_homologs.txt
 
 hmmsearch -o ${sample}_tmp/${sample}_merB.txt --tblout ${sample}_outputs/${sample}_merB_hmmer.out db/merAB_Christakis2021/211026_Christakis_reduced_merB_msa.hmm ${sample}_tmp/${sample}_proteins.faa
@@ -55,15 +55,15 @@ seqtk subseq ${sample}_tmp/${sample}_proteins.faa ${sample}_tmp/${sample}_merB_g
 awk '/^>/ {{printf("%s%s\t",(N>0?"\n":""),$0);N++;next;}} {{printf("%s",$0);}} END {{printf("\n");}}' < ${sample}_tmp/${sample}_merB_proteins.faa  |sort > ${sample}_tmp/${sample}_merB_proteins2.faa 
 sed 's/>//' ${sample}_tmp/${sample}_merB_proteins2.faa > ${sample}_tmp/${sample}_merB_proteins3.faa
 awk {'{print $1, $10}'} ${sample}_tmp/${sample}_merB_proteins3.faa > ${sample}_tmp/${sample}_merB_seq.txt
-grep -f ${sample}_tmp/${sample}_merB_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_merB_counts.txt
+grep -w -f ${sample}_tmp/${sample}_merB_geneid.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_merB_counts.txt
 paste ${sample}_tmp/${sample}_merB_counts.txt ${sample}_tmp/${sample}_merB_seq.txt | sed 's/$/ merB_hom/'  > ${sample}_outputs/${sample}_merB_homologs.txt
 
 hmmsearch --cut_tc db/rpoB/TIGR02013.hmm ${sample}_tmp/${sample}_proteins.faa > ${sample}_tmp/${sample}_rpoBb.txt
 sed -n -e '18,/Domain/p' ${sample}_tmp/${sample}_rpoBb.txt | head -n -3  | sed 's/ \+/|/g' | cut -f10 -d"|" > ${sample}_tmp/${sample}_rpoBb2.txt
-grep -f ${sample}_tmp/${sample}_rpoBb2.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_rpoBb3.txt
-echo -e "gene_id length read cov" | cat - ${sample}_tmp/${sample}_rpoBb3.txt > ${sample}_outputs/${sample}_rpoBb_final.txt
+grep -w -f ${sample}_tmp/${sample}_rpoBb2.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_rpoBb3.txt
+echo "gene_id length read cov" | cat - ${sample}_tmp/${sample}_rpoBb3.txt > ${sample}_outputs/${sample}_rpoBb_final.txt
 
 hmmsearch --cut_tc db/rpoB/TIGR03670.hmm ${sample}_tmp/${sample}_proteins.faa > ${sample}_tmp/${sample}_rpoBa.txt
 sed -n -e '18,/Domain/p' ${sample}_tmp/${sample}_rpoBa.txt | head -n -3  | sed 's/ \+/|/g' | cut -f10 -d"|" > ${sample}_tmp/${sample}_rpoBa2.txt
-grep -f ${sample}_tmp/${sample}_rpoBa2.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_rpoBa3.txt
-echo -e "gene_id length read cov" | cat - ${sample}_tmp/${sample}_rpoBa3.txt > ${sample}_outputs/${sample}_rpoBa_final.txt
+grep -w -f ${sample}_tmp/${sample}_rpoBa2.txt ${sample}_tmp/${sample}_counts3.txt | sort > ${sample}_tmp/${sample}_rpoBa3.txt
+echo "gene_id length read cov" | cat - ${sample}_tmp/${sample}_rpoBa3.txt > ${sample}_outputs/${sample}_rpoBa_final.txt
