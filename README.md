@@ -73,17 +73,14 @@ sbatch marky_se_to_slurm.sh sample
 ```
 
 ## ADVANCED USAGE WITH INTERMEDIATE FILES
-<p align="justify">
 Standards input files are fastq files but intermediate files can be used because the pipeline in based on a snakemake structure. For marky-coco to work this way, you would need to put your files in the sample_tmp folder as following:
 * sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
 * sample_tmp/sample_megahit/final.contigs.fa # megahit outputs
 * sample_tmp/sample.bam # bowtie2 outputs
 * sample_tmp/sample_proteins.faa # prodigal outputs
 * sample_tmp/sample_counts.tsv # featureCounts outputs
-</p>
 
 ## OUTPUTS
-<p align="justify">
 * hgcA_final.txt with columns: gene id, number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and amino acid sequences. 
 * hgcB_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences.  
 * merA_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
@@ -93,10 +90,8 @@ Standards input files are fastq files but intermediate files can be used because
 * fastp.html with metrics about the cleaning.
 * fastp.json with metrics about the cleaning.
 * bowtie2.log with metrics about the read mapping.
-</p>
 
 ## IMPORTANT NOTES FOR DATA INTERPRETATION
-<p align="justify">
 This software and insights into data interpretation are presented in the paper "A consensus protocol for the recovery of mercury methylation genes from metagenomes" <i>Molecular Ecology Resources</i> <a href="https://doi.org/10.1111/1755-0998.13687" target="_blank"><u>doi: 10.1111/1755-0998.13687</u></a>.  
 * <b>True hgcA genes</b> are those with amino acids motifs: NVWCAAGK, NVWCASGK, NVWCAGGK, NIWCAAGK, NIWCAGGK or NVWCSAGK
 * <b>True hgcB genes</b> are those with the amino acids motifs: CMECGA and CIECGA + colocated with true hgcA genes.
@@ -104,7 +99,7 @@ This software and insights into data interpretation are presented in the paper "
 * <b>merA and merB gene´s</b> homologs are detected in this pipeline using HMM profiles created from the amazing database of Christakis, Boyd and Barkay et al. (2021) <a href="https://doi.org/10.3389/fmicb.2021.682605" target="_blank"><u>doi: 10.3389/fmicb.2021.682605</u></a>. Manual inspection of each homolog is required to identify "true" merA and "true" merB genes but tjhe strategy is not described (yet) here. DO NOT USE this output saying you detect merA and merB genes because it will be clearly wrong.
 * To <b>normalize hgc coverage values</b>, sum the coverage values obtained from bacterial and archaeal rpoB genes. Read Capo et al. 2023 MER for other strategies.
 * To <b>assign NCBI txid to the corresponding taxonomy</b>, you can use the R script below  or do a manual assignment with db/db_txid_2202220  if you have only few  hgcA gene homologs. If the database do not include the txid you found in your sample, check the identity here https://www.ncbi.nlm.nih.gov/taxonomy/
-</p>
+
 ```
 R
 > db <- read.table("db/db_txid_220220.txt",h=T)
