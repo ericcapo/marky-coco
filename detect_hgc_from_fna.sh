@@ -43,5 +43,4 @@ awk -v input_name="$input_name" '{print $1, $10, "hgcB_homologs", input_name}' "
 paste "${lb9file}" "${lb16file}" > "${lb17file}"
 done
 
-cat outputs/* > detected_hgc_homologs.txt
-rm -r tmp outputs
+rm -r tmp
