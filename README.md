@@ -67,9 +67,7 @@ bash marky_se.sh MG02
 <br>
 
 ## SLURM USAGE
-<p align="justify">
 Run the marky_to_slurm file. See how slurm work on your computer/servor here https://blog.ronin.cloud/slurm-intro/
-</p>
 * For paired-end metagenomes
 ```
 sbatch marky_pe_to_slurm.sh sample
@@ -79,7 +77,6 @@ sbatch marky_pe_to_slurm.sh sample
 sbatch marky_se_to_slurm.sh sample
 ```
 
-<br>
 <br>
 
 ## ADVANCED USAGE WITH INTERMEDIATE FILES
