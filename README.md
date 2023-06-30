@@ -5,7 +5,6 @@ Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from ra
 ![Marky-coco_workflow](https://user-images.githubusercontent.com/10795529/213127826-77844383-3a59-41b3-80f6-b7e3ab6b2ae9.png)
 </p>
 
-<!-- -->
 ## INSTALL
 
 ```
@@ -18,6 +17,7 @@ To install conda, read instructions here https://docs.conda.io/projects/conda/en
 <br>
 <br>
 <br>
+
 ## BASIC USAGE WITH PAIRED END METAGENOMES
 * Copy your fastq files (sample_1.fastq and sample_2.fastq) in the folder marky-coco.
 ```
