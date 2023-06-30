@@ -80,6 +80,7 @@ sbatch marky_se_to_slurm.sh sample
 ```
 
 <br>
+<br>
 
 ## ADVANCED USAGE WITH INTERMEDIATE FILES
 Standards input files are fastq files but intermediate files can be used because the pipeline in based on a snakemake structure. For marky-coco to work this way, you would need to put your files in the sample_tmp folder as following:
