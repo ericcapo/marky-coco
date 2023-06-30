@@ -4,7 +4,8 @@ Marky-coco is a ready-to-use pipeline to detect and identify hgcAB genes from ra
 
 ![Marky-coco_workflow](https://user-images.githubusercontent.com/10795529/213127826-77844383-3a59-41b3-80f6-b7e3ab6b2ae9.png)
 </p>
-<br>
+
+
 ## INSTALL
 
 ```
