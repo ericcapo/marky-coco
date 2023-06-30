@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-ml bioinfo-tools prodigal hmmer seqtk
-
 mkdir tmp tmp/tmp01 tmp/tmp02 tmp/tmp03 tmp/tmp04 tmp/tmp05 tmp/tmp06 tmp/tmp07 tmp/tmp08 tmp/tmp09 tmp/tmp10 tmp/tmp11 tmp/tmp12 tmp/tmp13 tmp/tmp14 tmp/tmp15 tmp/tmp16 outputs
 
 inputs="$1"
