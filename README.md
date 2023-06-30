@@ -31,6 +31,8 @@ conda activate coco
 bash marky_pe.sh sample
 ```
 
+<br>
+
 ## BASIC USAGE WITH SINGLE END METAGENOMES
 * Copy your fastq file (sample.fastq) in the folder marky-coco. 
 ```
@@ -44,6 +46,8 @@ conda activate coco
 ```
 bash marky_se.sh sample
 ```
+
+<br>
 
 ## RUN MARKY-COCO WITH TEST METAGENOMES
 Download test files MG01 (paired-end fastq files) and MG02 (single-end fastq file)
@@ -60,6 +64,8 @@ bash marky_pe.sh MG01
 bash marky_se.sh MG02
 ```
 
+<br>
+
 ## SLURM USAGE
 <p align="justify">
 Run the marky_to_slurm file. See how slurm work on your computer/servor here https://blog.ronin.cloud/slurm-intro/
@@ -73,6 +79,8 @@ sbatch marky_pe_to_slurm.sh sample
 sbatch marky_se_to_slurm.sh sample
 ```
 
+<br>
+
 ## ADVANCED USAGE WITH INTERMEDIATE FILES
 Standards input files are fastq files but intermediate files can be used because the pipeline in based on a snakemake structure. For marky-coco to work this way, you would need to put your files in the sample_tmp folder as following:
 * sample_tmp/sample_P1.fastq & sample_tmp/sample_P2.fastq # cleaned fastq files
@@ -81,7 +89,9 @@ Standards input files are fastq files but intermediate files can be used because
 * sample_tmp/sample_proteins.faa # prodigal outputs
 * sample_tmp/sample_counts.tsv # featureCounts outputs
 
-## OUTPUTS FROM METAGENOMES
+<br>
+
+## OUTPUT FILES
 * hgcA_final.txt with columns: gene id, number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and amino acid sequences. 
 * hgcB_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences.  
 * merA_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
@@ -91,6 +101,8 @@ Standards input files are fastq files but intermediate files can be used because
 * fastp.html with metrics about the cleaning.
 * fastp.json with metrics about the cleaning.
 * bowtie2.log with metrics about the read mapping.
+
+<br>
 
 ## RECOVER HGC FROM GENOMES (ISOLATED, SAGS AND MAGS)
 <b>"NEW SINCE 30 JUNE 2023</b>To detect the presence of hgc genes in your genomes, you only need the script detect_hgc_from_fna.sh, the db folder of marky-coco and a folder with all your genomes in fna format.
@@ -108,7 +120,9 @@ conda activate coco
 bash detect_hgc_from_fna.sh folder
 ```
 
-The output file is called "detected_hgc_homologs" provided you the list hgcB homologs found in your genomes of interest. Columns includes the id of the genes, the amino acid sequences, genome_id and gene information (hgcA homolog or hgcB homolog). You still have to conifmr if there are true hgcA and hgcB genes using the criteria described in the section below "IMPORTANT NOTES FOR DATA INTERPRETATION". This script do not provide any information about the abundance/coverage of this gene in the genome, neither a specific taxonomy against Hg-MATE database. This is just the presence of this gene pair in your genome(s).
+The output file is called "detected_hgc_homologs.txt" provide you a list hgcB homologs found in your genomes of interest. Columns includes the id of the genes, the amino acid sequences, genome_id and gene information (hgcA homolog or hgcB homolog). You still have to conifmr if there are true hgcA and hgcB genes using the criteria described in the section below "IMPORTANT NOTES FOR DATA INTERPRETATION". This script do not provide any information about the abundance/coverage of this gene in the genome, neither a specific taxonomy against Hg-MATE database. This is giving you merely the presence of this gene pair in your genome(s).
+
+<br>
 
 ## IMPORTANT NOTES FOR DATA INTERPRETATION
 This software and insights into data interpretation are presented in the paper "A consensus protocol for the recovery of mercury methylation genes from metagenomes" <i>Molecular Ecology Resources</i> <a href="https://doi.org/10.1111/1755-0998.13687" target="_blank"><u>doi: 10.1111/1755-0998.13687</u></a>.  
@@ -127,6 +141,8 @@ R
 > write.table(b, file="{sample}_outputs/{sample}_hgcA_final2.txt", sep="\t", row.names=F)
 > quit()
 ```
+
+<br>
 
 ## METHODS
 <p align="justify">
