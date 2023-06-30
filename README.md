@@ -94,6 +94,9 @@ Standards input files are fastq files but intermediate files can be used because
 ## RECOVER HGC FROM GENOMES (ISOLATED, SAGS AND MAGS)
 <b>"NEW SINCE 30 JUNE 2023</b>To detect the presence of hgc genes in your genomes, you only need the script detect_hgc_from_fna.sh, the db folder of marky-coco and a folder with all your genomes in fna format.
 ```
+conda activate coco
+```
+```
 bash detect_hgc_from_fna.sh folder
 ```
 The output file is called "detected_hgc_homologs" provided you the list hgcB homologs found in your genomes of interest. Columns includes the id of the genes, the amino acid sequences, genome_id and gene information (hgcA homolog or hgcB homolog). You still have to conifmr if there are true hgcA and hgcB genes using the criteria described in the section below "IMPORTANT NOTES FOR DATA INTERPRETATION". This script do not provide any information about the abundance/coverage of this gene in the genome, neither a specific taxonomy against Hg-MATE database. This is just the presence of this gene pair in your genome(s).
