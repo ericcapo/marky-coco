@@ -92,10 +92,7 @@ Standards input files are fastq files but intermediate files can be used because
 * bowtie2.log with metrics about the read mapping.
 
 ## RECOVER HGC FROM GENOMES (ISOLATED, SAGS AND MAGS)
-<b><span style="color:red;">NEW SINCE 30 JUNE 2023n</span></b>
-
-To detect the presence of hgc genes in your genomes, you only need the script detect_hgc_from_fna.sh, the db folder of marky-coco and a 
-folder with all your genomes in fna format.
+<b>"NEW SINCE 30 JUNE 2023</b>To detect the presence of hgc genes in your genomes, you only need the script detect_hgc_from_fna.sh, the db folder of marky-coco and a folder with all your genomes in fna format.
 ```
 bash detect_hgc_from_fna.sh folder
 ```
