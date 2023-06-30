@@ -80,7 +80,7 @@ Standards input files are fastq files but intermediate files can be used because
 * sample_tmp/sample_proteins.faa # prodigal outputs
 * sample_tmp/sample_counts.tsv # featureCounts outputs
 
-## OUTPUTS
+## OUTPUTS FROM METAGENOMES
 * hgcA_final.txt with columns: gene id, number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and amino acid sequences. 
 * hgcB_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences.  
 * merA_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
@@ -90,6 +90,14 @@ Standards input files are fastq files but intermediate files can be used because
 * fastp.html with metrics about the cleaning.
 * fastp.json with metrics about the cleaning.
 * bowtie2.log with metrics about the read mapping.
+
+## RECOVER HGC FROM GENOMES (ISOLATED, SAGS AND MAGS)
+NEW SINCE 30 JUNE 2023 : To detect the presence of hgc genes in your genomes, you only need the script detect_hgc_from_fna.sh, the db folder of marky-coco and a 
+folder with all your genomes in fna format.
+```
+bash detect_hgc_from_fna.sh folder
+```
+The output file is called "detected_hgc_homologs" provided you the list hgcB homologs found in your genomes of interest. Columns includes the id of the genes, the amino acid sequences, genome_id and gene information (hgcA homolog or hgcB homolog). You still have to conifmr if there are true hgcA and hgcB genes using the criteria described in the section below "IMPORTANT NOTES FOR DATA INTERPRETATION". This script do not provide any information about the abundance/coverage of this gene in the genome, neither a specific taxonomy against Hg-MATE database. This is just the presence of this gene pair in your genome(s).
 
 ## IMPORTANT NOTES FOR DATA INTERPRETATION
 This software and insights into data interpretation are presented in the paper "A consensus protocol for the recovery of mercury methylation genes from metagenomes" <i>Molecular Ecology Resources</i> <a href="https://doi.org/10.1111/1755-0998.13687" target="_blank"><u>doi: 10.1111/1755-0998.13687</u></a>.  
