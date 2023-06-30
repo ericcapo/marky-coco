@@ -16,7 +16,6 @@ To install conda, read instructions here https://docs.conda.io/projects/conda/en
 
 <br>
 <br>
-<br>
 
 ## BASIC USAGE WITH PAIRED END METAGENOMES
 * Copy your fastq files (sample_1.fastq and sample_2.fastq) in the folder marky-coco.
