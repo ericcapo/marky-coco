@@ -118,7 +118,7 @@ conda activate coco
 bash detect_hgc_from_fna.sh folder
 ```
 
-The output files are in the folder outputs. Each output file provide you a list hgcB homologs found in each genome of interest. Columns includes the id of the genes, the amino acid sequences, genome_id and gene information (hgcA homolog or hgcB homolog). You still have to conifmr if there are true hgcA and hgcB genes using the criteria described in the section below "IMPORTANT NOTES FOR DATA INTERPRETATION". This script do not provide any information about the abundance/coverage of this gene in the genome, neither a specific taxonomy against Hg-MATE database. This is giving you merely the presence of this gene pair in your genome(s).
+The output files are in the folder outputs_hgcA and outputs_hgcB. Each output file provide you a list hgcB homologs found in each genome of interest. Columns includes the id of the genes, the amino acid sequences, genome_id and gene information (hgcA homolog or hgcB homolog). You still have to conifmr if there are true hgcA and hgcB genes using the criteria described in the section below "IMPORTANT NOTES FOR DATA INTERPRETATION". This script do not provide any information about the abundance/coverage of this gene in the genome, neither a specific taxonomy against Hg-MATE database. This is giving you merely the presence of this gene pair in your genome(s).
 
 <br>
 
