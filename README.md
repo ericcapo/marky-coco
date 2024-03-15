@@ -92,8 +92,8 @@ Standards input files are fastq files but intermediate files can be used because
 ## OUTPUT FILES
 * hgcA_final.txt with columns: gene id, number of reads, gene length (bp), coverage values (nb of read/bp), taxonomic identification (txid) and amino acid sequences. 
 * hgcB_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences.  
-* merA_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
-* merB_final.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
+* merA_homologs.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
+* merB_homologs.txt with columnds : gene id, number of reads, gene length (bp), coverage values (nb of read/bp), and amino acid sequences. 
 * rpoBb_final.txt (bacterial rpoB genes) with coverage values (nb of read/bp).
 * rpoBa_final.txt (archaeal rpoB genes) with coverage values (nb of read/bp).
 * fastp.html with metrics about the cleaning.
